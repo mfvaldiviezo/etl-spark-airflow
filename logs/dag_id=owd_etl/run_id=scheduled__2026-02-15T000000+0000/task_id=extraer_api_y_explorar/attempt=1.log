@@ -1,0 +1,67 @@
+[2026-02-16T00:00:01.635+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: owd_etl.extraer_api_y_explorar scheduled__2026-02-15T00:00:00+00:00 [queued]>
+[2026-02-16T00:00:01.647+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: owd_etl.extraer_api_y_explorar scheduled__2026-02-15T00:00:00+00:00 [queued]>
+[2026-02-16T00:00:01.648+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-02-16T00:00:01.666+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraer_api_y_explorar> on 2026-02-15 00:00:00+00:00
+[2026-02-16T00:00:01.676+0000] {standard_task_runner.py:60} INFO - Started process 31798 to run task
+[2026-02-16T00:00:01.681+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'owd_etl', 'extraer_api_y_explorar', 'scheduled__2026-02-15T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/owd_etl.py', '--cfg-path', '/tmp/tmp__kr69q0']
+[2026-02-16T00:00:01.685+0000] {standard_task_runner.py:88} INFO - Job 13: Subtask extraer_api_y_explorar
+[2026-02-16T00:00:01.713+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-16T00:00:01.775+0000] {task_command.py:423} INFO - Running <TaskInstance: owd_etl.extraer_api_y_explorar scheduled__2026-02-15T00:00:00+00:00 [running]> on host 21fafdf21d68
+[2026-02-16T00:00:02.408+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Clases_etl' AIRFLOW_CTX_DAG_ID='owd_etl' AIRFLOW_CTX_TASK_ID='extraer_api_y_explorar' AIRFLOW_CTX_EXECUTION_DATE='2026-02-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-15T00:00:00+00:00'
+[2026-02-16T00:00:02.409+0000] {logging_mixin.py:188} INFO - 📡 Solicitando clima actual para: Loja,EC
+[2026-02-16T00:00:03.091+0000] {logging_mixin.py:188} INFO - 
+==================================================
+[2026-02-16T00:00:03.092+0000] {logging_mixin.py:188} INFO - 🔍 ESTRUCTURA DEL JSON RECIBIDO (RAW DATA):
+[2026-02-16T00:00:03.093+0000] {logging_mixin.py:188} INFO - {
+    "coord": {
+        "lon": -79.2042,
+        "lat": -3.9931
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 17.67,
+        "feels_like": 17.4,
+        "temp_min": 17.67,
+        "temp_max": 17.67,
+        "pressure": 1014,
+        "humidity": 73,
+        "sea_level": 1014,
+        "grnd_level": 797
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.63,
+        "deg": 270
+    },
+    "rain": {
+        "1h": 0.51
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1771200003,
+    "sys": {
+        "type": 1,
+        "id": 8540,
+        "country": "EC",
+        "sunrise": 1771154645,
+        "sunset": 1771198684
+    },
+    "timezone": -18000,
+    "id": 3654667,
+    "name": "Loja",
+    "cod": 200
+}
+[2026-02-16T00:00:03.093+0000] {logging_mixin.py:188} INFO - ==================================================
+[2026-02-16T00:00:03.113+0000] {python.py:201} INFO - Done. Returned value was: /opt/***/dags/data_lake/simple_weather/raw/clima_crudo.json
+[2026-02-16T00:00:03.170+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=owd_etl, task_id=extraer_api_y_explorar, execution_date=20260215T000000, start_date=20260216T000001, end_date=20260216T000003
+[2026-02-16T00:00:03.223+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-16T00:00:03.255+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,17 @@
+[2026-02-21T04:06:28.798+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_albums_etl_v2.extraer_albumes_bronze scheduled__2026-02-20T00:00:00+00:00 [queued]>
+[2026-02-21T04:06:28.812+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_albums_etl_v2.extraer_albumes_bronze scheduled__2026-02-20T00:00:00+00:00 [queued]>
+[2026-02-21T04:06:28.813+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-02-21T04:06:28.837+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraer_albumes_bronze> on 2026-02-20 00:00:00+00:00
+[2026-02-21T04:06:28.844+0000] {standard_task_runner.py:60} INFO - Started process 8841 to run task
+[2026-02-21T04:06:28.849+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_albums_etl_v2', 'extraer_albumes_bronze', 'scheduled__2026-02-20T00:00:00+00:00', '--job-id', '214', '--raw', '--subdir', 'DAGS_FOLDER/spotify_albums_etl.py', '--cfg-path', '/tmp/tmpspcnvp4a']
+[2026-02-21T04:06:28.851+0000] {standard_task_runner.py:88} INFO - Job 214: Subtask extraer_albumes_bronze
+[2026-02-21T04:06:28.877+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-21T04:06:28.948+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_albums_etl_v2.extraer_albumes_bronze scheduled__2026-02-20T00:00:00+00:00 [running]> on host 4db39a7f84f2
+[2026-02-21T04:06:29.255+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='maestria_bigdata' AIRFLOW_CTX_DAG_ID='spotify_albums_etl_v2' AIRFLOW_CTX_TASK_ID='extraer_albumes_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-02-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-20T00:00:00+00:00'
+[2026-02-21T04:06:29.257+0000] {spotify_albums_etl.py:58} INFO - 🔐 [BRONZE] Iniciando autenticación con Spotify OAuth 2.0...
+[2026-02-21T04:06:29.270+0000] {spotify_albums_etl.py:71} WARNING - ⚠️ Connection 'spotify_api' no encontrada, fallback a Variables.
+[2026-02-21T04:06:29.683+0000] {spotify_albums_etl.py:94} INFO - 🔑 Token obtenido correctamente.
+[2026-02-21T04:06:29.684+0000] {spotify_albums_etl.py:127} INFO - 
+🎤 Procesando artista: The Weeknd (1Xyo4u8uXC1ZmMpatF05PJ)
+[2026-02-21T04:06:29.701+0000] {spotify_albums_etl.py:139} INFO -    📄 Página 1 (offset 0)...
+[2026-02-21T04:06:30.049+0000] {spotify_albums_etl.py:115} WARNING - ⏳ Rate limit alcanzado. Esperando 85135s...

@@ -1,0 +1,15 @@
+# Ignorar datos masivos y el Data Lake
+data_lake/
+*.csv
+*.parquet
+
+# Ignorar logs de Airflow y datos de Postgres
+logs/
+warehouse-db-volume/
+
+# Ignorar binarios de Python
+__pycache__/
+*.pyc
+
+# Ignorar variables de entorno
+.env

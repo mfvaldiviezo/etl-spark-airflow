@@ -1,0 +1,23 @@
+[2026-02-19T16:02:36.958+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: owd_etl_robusto.extraer_raw scheduled__2026-02-19T15:00:00+00:00 [queued]>
+[2026-02-19T16:02:36.969+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: owd_etl_robusto.extraer_raw scheduled__2026-02-19T15:00:00+00:00 [queued]>
+[2026-02-19T16:02:36.969+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2026-02-19T16:02:36.988+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraer_raw> on 2026-02-19 15:00:00+00:00
+[2026-02-19T16:02:36.997+0000] {standard_task_runner.py:60} INFO - Started process 195 to run task
+[2026-02-19T16:02:37.003+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'owd_etl_robusto', 'extraer_raw', 'scheduled__2026-02-19T15:00:00+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/owd_etl_robusto.py', '--cfg-path', '/tmp/tmp7daimaed']
+[2026-02-19T16:02:37.008+0000] {standard_task_runner.py:88} INFO - Job 36: Subtask extraer_raw
+[2026-02-19T16:02:37.042+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-19T16:02:37.409+0000] {task_command.py:423} INFO - Running <TaskInstance: owd_etl_robusto.extraer_raw scheduled__2026-02-19T15:00:00+00:00 [running]> on host 9c61b33cde5a
+[2026-02-19T16:02:37.576+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Procesos_ETL' AIRFLOW_CTX_DAG_ID='owd_etl_robusto' AIRFLOW_CTX_TASK_ID='extraer_raw' AIRFLOW_CTX_EXECUTION_DATE='2026-02-19T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-19T15:00:00+00:00'
+[2026-02-19T16:02:37.577+0000] {logging_mixin.py:188} INFO - Iniciando la extracción de datos desde la Api...
+[2026-02-19T16:02:38.163+0000] {logging_mixin.py:188} INFO - Extraido: Quito
+[2026-02-19T16:02:38.562+0000] {logging_mixin.py:188} INFO - Extraido: Loja
+[2026-02-19T16:02:38.955+0000] {logging_mixin.py:188} INFO - Extraido: Guayaquil
+[2026-02-19T16:02:39.337+0000] {logging_mixin.py:188} INFO - Extraido: Cuenca
+[2026-02-19T16:02:39.719+0000] {logging_mixin.py:188} INFO - Extraido: London
+[2026-02-19T16:02:40.107+0000] {logging_mixin.py:188} INFO - Extraido: Tokyo
+[2026-02-19T16:02:40.487+0000] {logging_mixin.py:188} INFO - Extraido: Madrid
+[2026-02-19T16:02:40.696+0000] {logging_mixin.py:188} INFO - (Bronze) Datos guardados en: /opt/***/dags/data_lake/master_weather/bronze/raw_weather_20260219_1602.parquet
+[2026-02-19T16:02:40.697+0000] {python.py:201} INFO - Done. Returned value was: /opt/***/dags/data_lake/master_weather/bronze/raw_weather_20260219_1602.parquet
+[2026-02-19T16:02:40.730+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=owd_etl_robusto, task_id=extraer_raw, execution_date=20260219T150000, start_date=20260219T160236, end_date=20260219T160240
+[2026-02-19T16:02:40.796+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-19T16:02:40.987+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

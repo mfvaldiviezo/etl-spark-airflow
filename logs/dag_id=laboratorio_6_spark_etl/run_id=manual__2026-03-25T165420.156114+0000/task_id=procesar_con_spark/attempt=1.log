@@ -1,0 +1,14 @@
+[2026-03-25T16:54:24.840+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: laboratorio_6_spark_etl.procesar_con_spark manual__2026-03-25T16:54:20.156114+00:00 [queued]>
+[2026-03-25T16:54:24.852+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: laboratorio_6_spark_etl.procesar_con_spark manual__2026-03-25T16:54:20.156114+00:00 [queued]>
+[2026-03-25T16:54:24.853+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-03-25T16:54:24.877+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): procesar_con_spark> on 2026-03-25 16:54:20.156114+00:00
+[2026-03-25T16:54:24.884+0000] {standard_task_runner.py:60} INFO - Started process 1300 to run task
+[2026-03-25T16:54:24.888+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'laboratorio_6_spark_etl', 'procesar_con_spark', 'manual__2026-03-25T16:54:20.156114+00:00', '--job-id', '472', '--raw', '--subdir', 'DAGS_FOLDER/dag_spark_taller.py', '--cfg-path', '/tmp/tmp6br3qv7f']
+[2026-03-25T16:54:24.891+0000] {standard_task_runner.py:88} INFO - Job 472: Subtask procesar_con_spark
+[2026-03-25T16:54:24.914+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-03-25T16:54:24.965+0000] {task_command.py:423} INFO - Running <TaskInstance: laboratorio_6_spark_etl.procesar_con_spark manual__2026-03-25T16:54:20.156114+00:00 [running]> on host 355eed2d90f4
+[2026-03-25T16:54:25.059+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='laboratorio_6_spark_etl' AIRFLOW_CTX_TASK_ID='procesar_con_spark' AIRFLOW_CTX_EXECUTION_DATE='2026-03-25T16:54:20.156114+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-25T16:54:20.156114+00:00'
+[2026-03-25T16:54:43.786+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-03-25T16:54:43.808+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=laboratorio_6_spark_etl, task_id=procesar_con_spark, execution_date=20260325T165420, start_date=20260325T165424, end_date=20260325T165443
+[2026-03-25T16:54:43.858+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-25T16:54:43.889+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

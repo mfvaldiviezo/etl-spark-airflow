@@ -1,0 +1,311 @@
+[2026-03-14T00:00:14.129+0000] {processor.py:161} INFO - Started process (PID=45148) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:00:14.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:00:14.150+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:00:14.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:00:15.321+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:00:15.367+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:00:15.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:00:15.412+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:00:15.411+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:00:15.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.352 seconds
+[2026-03-14T00:00:46.204+0000] {processor.py:161} INFO - Started process (PID=45207) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:00:46.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:00:46.208+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:00:46.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:00:46.928+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:00:46.965+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:00:46.965+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:00:47.010+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:00:47.009+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:00:47.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.864 seconds
+[2026-03-14T00:01:17.549+0000] {processor.py:161} INFO - Started process (PID=45242) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:01:17.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:01:17.555+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:01:17.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:01:18.241+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:01:18.280+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:01:18.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:01:18.316+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:01:18.316+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:01:18.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.835 seconds
+[2026-03-14T00:01:48.765+0000] {processor.py:161} INFO - Started process (PID=45277) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:01:48.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:01:48.770+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:01:48.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:01:49.489+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:01:49.537+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:01:49.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:01:49.584+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:01:49.584+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:01:49.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.885 seconds
+[2026-03-14T00:02:20.498+0000] {processor.py:161} INFO - Started process (PID=45312) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:02:20.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:02:20.504+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:02:20.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:02:21.130+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:02:21.169+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:02:21.169+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:02:21.203+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:02:21.202+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:02:21.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.770 seconds
+[2026-03-14T00:02:51.642+0000] {processor.py:161} INFO - Started process (PID=45347) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:02:51.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:02:51.647+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:02:51.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:02:52.365+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:02:52.406+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:02:52.405+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:02:52.442+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:02:52.441+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:02:52.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.843 seconds
+[2026-03-14T00:03:23.413+0000] {processor.py:161} INFO - Started process (PID=45382) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:03:23.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:03:23.418+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:03:23.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:03:24.580+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:03:24.615+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:03:24.614+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:03:24.651+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:03:24.650+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:03:24.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.281 seconds
+[2026-03-14T00:03:55.472+0000] {processor.py:161} INFO - Started process (PID=45417) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:03:55.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:03:55.475+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:03:55.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:03:56.210+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:03:56.269+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:03:56.268+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:03:56.312+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:03:56.312+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:03:56.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.901 seconds
+[2026-03-14T00:04:27.299+0000] {processor.py:161} INFO - Started process (PID=45452) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:04:27.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:04:27.302+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:04:27.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:04:27.958+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:04:27.995+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:04:27.995+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:04:28.027+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:04:28.027+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:04:28.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.793 seconds
+[2026-03-14T00:04:58.415+0000] {processor.py:161} INFO - Started process (PID=45487) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:04:58.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:04:58.443+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:04:58.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:04:59.617+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:04:59.658+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:04:59.657+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:04:59.691+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:04:59.691+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:04:59.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.317 seconds
+[2026-03-14T00:05:30.517+0000] {processor.py:161} INFO - Started process (PID=45522) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:05:30.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:05:30.523+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:05:30.521+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:05:31.624+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:05:31.734+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:05:31.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:05:31.821+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:05:31.820+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:05:31.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.368 seconds
+[2026-03-14T00:06:02.557+0000] {processor.py:161} INFO - Started process (PID=45557) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:06:02.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:06:02.560+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:06:02.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:06:03.356+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:06:03.388+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:06:03.387+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:06:03.418+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:06:03.417+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:06:03.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.930 seconds
+[2026-03-14T00:06:34.159+0000] {processor.py:161} INFO - Started process (PID=45592) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:06:34.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:06:34.163+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:06:34.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:06:34.698+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:06:34.734+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:06:34.734+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:06:34.764+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:06:34.764+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:06:34.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.646 seconds
+[2026-03-14T00:07:04.991+0000] {processor.py:161} INFO - Started process (PID=45627) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:07:04.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:07:04.995+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:07:04.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:07:05.932+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:07:06.020+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:07:06.019+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:07:06.092+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:07:06.091+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:07:06.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.173 seconds
+[2026-03-14T00:07:36.729+0000] {processor.py:161} INFO - Started process (PID=45662) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:07:36.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:07:36.732+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:07:36.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:07:37.382+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:07:37.415+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:07:37.415+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:07:37.443+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:07:37.442+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:07:37.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.764 seconds
+[2026-03-14T00:08:07.855+0000] {processor.py:161} INFO - Started process (PID=45697) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:08:07.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:08:07.861+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:08:07.860+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:08:08.764+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:08:08.807+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:08:08.806+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:08:08.876+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:08:08.876+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:08:08.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.081 seconds
+[2026-03-14T00:08:39.616+0000] {processor.py:161} INFO - Started process (PID=45732) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:08:39.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:08:39.632+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:08:39.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:08:40.689+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:08:40.743+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:08:40.743+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:08:40.778+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:08:40.776+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:08:40.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.236 seconds
+[2026-03-14T00:09:11.622+0000] {processor.py:161} INFO - Started process (PID=45767) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:09:11.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:09:11.626+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:09:11.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:09:12.353+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:09:12.390+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:09:12.389+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:09:12.435+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:09:12.435+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:09:12.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.880 seconds
+[2026-03-14T00:09:42.686+0000] {processor.py:161} INFO - Started process (PID=45802) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:09:42.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:09:42.690+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:09:42.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:09:43.583+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:09:43.648+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:09:43.648+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:09:43.707+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:09:43.706+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:09:43.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.069 seconds
+[2026-03-14T00:10:13.996+0000] {processor.py:161} INFO - Started process (PID=45837) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:10:13.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:10:14.004+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:10:14.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:10:14.940+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:10:14.991+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:10:14.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:10:15.055+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:10:15.055+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:10:15.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.122 seconds
+[2026-03-14T00:10:45.251+0000] {processor.py:161} INFO - Started process (PID=45872) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:10:45.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:10:45.258+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:10:45.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:10:46.295+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:10:46.390+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:10:46.389+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:10:46.452+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:10:46.451+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:10:46.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.292 seconds
+[2026-03-14T00:11:16.693+0000] {processor.py:161} INFO - Started process (PID=45907) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:11:16.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:11:16.700+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:11:16.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:11:17.623+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:11:17.684+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:11:17.684+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:11:17.742+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:11:17.741+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:11:17.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.091 seconds
+[2026-03-14T00:11:47.913+0000] {processor.py:161} INFO - Started process (PID=45942) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:11:47.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:11:47.917+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:11:47.917+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:11:49.065+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:11:49.102+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:11:49.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:11:49.134+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:11:49.134+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:11:49.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.280 seconds
+[2026-03-14T00:12:19.625+0000] {processor.py:161} INFO - Started process (PID=45977) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:12:19.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:12:19.630+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:12:19.629+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:12:20.248+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:12:20.278+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:12:20.278+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:12:20.329+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:12:20.328+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:12:20.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.743 seconds
+[2026-03-14T00:12:50.533+0000] {processor.py:161} INFO - Started process (PID=46012) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:12:50.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:12:50.536+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:12:50.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:12:51.561+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:12:51.621+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:12:51.620+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:12:51.653+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:12:51.653+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:12:51.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.169 seconds
+[2026-03-14T00:13:23.936+0000] {processor.py:161} INFO - Started process (PID=46047) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:13:23.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:13:23.939+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:13:23.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:13:25.244+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:13:25.279+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:13:25.279+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:13:25.305+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:13:25.305+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:13:25.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.426 seconds
+[2026-03-14T00:13:55.749+0000] {processor.py:161} INFO - Started process (PID=46082) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:13:55.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:13:55.754+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:13:55.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:13:57.051+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:13:57.174+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:13:57.173+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:13:57.259+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:13:57.258+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:13:57.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.588 seconds
+[2026-03-14T00:14:28.217+0000] {processor.py:161} INFO - Started process (PID=46117) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:14:28.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:14:28.223+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:14:28.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:14:28.844+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:14:28.883+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:14:28.883+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:14:28.912+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:14:28.912+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:14:28.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.736 seconds
+[2026-03-14T00:14:59.910+0000] {processor.py:161} INFO - Started process (PID=46152) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:14:59.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:14:59.914+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:14:59.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:15:01.124+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:15:01.253+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:15:01.250+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:15:01.349+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:15:01.348+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:15:01.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.564 seconds
+[2026-03-14T00:15:31.693+0000] {processor.py:161} INFO - Started process (PID=46187) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:15:31.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:15:31.698+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:15:31.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:15:32.958+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:15:33.074+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:15:33.072+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:15:33.193+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:15:33.192+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:15:33.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.626 seconds
+[2026-03-14T00:16:03.708+0000] {processor.py:161} INFO - Started process (PID=46222) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:16:03.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:16:03.714+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:16:03.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:16:05.332+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:16:05.362+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:16:05.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:16:05.389+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:16:05.389+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:16:05.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.718 seconds
+[2026-03-14T00:16:35.635+0000] {processor.py:161} INFO - Started process (PID=46257) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:16:35.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:16:35.639+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:16:35.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:16:36.300+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:16:36.332+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:16:36.331+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:16:36.360+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:16:36.360+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:16:36.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.790 seconds
+[2026-03-14T00:17:06.641+0000] {processor.py:161} INFO - Started process (PID=46292) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:17:06.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:17:06.645+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:17:06.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:17:07.600+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:17:07.639+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:17:07.638+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:17:07.668+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:17:07.668+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:17:07.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.059 seconds
+[2026-03-14T00:17:38.649+0000] {processor.py:161} INFO - Started process (PID=46327) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:17:38.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:17:38.653+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:17:38.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:17:39.408+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:17:39.436+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:17:39.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:17:39.474+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:17:39.474+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:17:39.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.897 seconds
+[2026-03-14T00:18:10.414+0000] {processor.py:161} INFO - Started process (PID=46362) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:18:10.424+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:18:10.428+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:18:10.427+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:18:12.316+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:18:12.371+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:18:12.371+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:18:12.409+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:18:12.408+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:18:12.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 2.107 seconds
+[2026-03-14T00:18:42.562+0000] {processor.py:161} INFO - Started process (PID=46397) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:18:42.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:18:42.565+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:18:42.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:18:43.294+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:18:43.331+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:18:43.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:18:43.362+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:18:43.361+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:18:43.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.860 seconds
+[2026-03-14T00:19:14.624+0000] {processor.py:161} INFO - Started process (PID=46432) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:19:14.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:19:14.634+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:19:14.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:19:15.587+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:19:15.616+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:19:15.615+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:19:15.640+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:19:15.640+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:19:15.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.058 seconds
+[2026-03-14T00:19:46.558+0000] {processor.py:161} INFO - Started process (PID=46467) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:19:46.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:19:46.568+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:19:46.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:19:47.482+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:19:47.510+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:19:47.509+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:19:47.544+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:19:47.544+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:19:47.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.047 seconds
+[2026-03-14T00:20:23.498+0000] {processor.py:161} INFO - Started process (PID=46500) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:20:23.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:20:23.530+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:20:23.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:20:27.283+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:20:27.434+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:20:27.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:20:27.578+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:20:27.575+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:20:27.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 4.228 seconds
+[2026-03-14T00:20:57.988+0000] {processor.py:161} INFO - Started process (PID=46535) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:20:57.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:20:58.012+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:20:58.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:20:59.382+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:20:59.461+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:20:59.460+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:20:59.533+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:20:59.532+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:20:59.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.612 seconds
+[2026-03-14T00:21:30.170+0000] {processor.py:161} INFO - Started process (PID=46572) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:21:30.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:21:30.175+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:21:30.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:21:30.929+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:21:30.964+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:21:30.964+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:21:31.005+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:21:31.005+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:21:31.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.886 seconds
+[2026-03-14T00:22:02.011+0000] {processor.py:161} INFO - Started process (PID=46607) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:22:02.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:22:02.024+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:22:02.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:22:02.845+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:22:02.875+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:22:02.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:22:02.901+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:22:02.901+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:22:02.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.953 seconds
+[2026-03-14T00:22:33.675+0000] {processor.py:161} INFO - Started process (PID=46642) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:22:33.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:22:33.679+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:22:33.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:22:34.330+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:22:34.365+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:22:34.364+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:22:34.394+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:22:34.393+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:22:34.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 0.751 seconds
+[2026-03-14T00:23:04.690+0000] {processor.py:161} INFO - Started process (PID=46677) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:23:04.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:23:04.694+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:23:04.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:23:05.746+0000] {processor.py:840} INFO - DAG(s) 'spotify_etl' retrieved from /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:23:05.784+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:23:05.784+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-14T00:23:05.813+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:23:05.812+0000] {dag.py:3823} INFO - Setting next_dagrun for spotify_etl to 2026-03-13 00:00:00+00:00, run_after=2026-03-14 00:00:00+00:00
+[2026-03-14T00:23:05.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotyfy_etl.py took 1.152 seconds
+[2026-03-14T00:23:36.714+0000] {processor.py:161} INFO - Started process (PID=46712) to work on /opt/airflow/dags/spotyfy_etl.py
+[2026-03-14T00:23:36.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotyfy_etl.py for tasks to queue
+[2026-03-14T00:23:36.745+0000] {logging_mixin.py:188} INFO - [2026-03-14T00:23:36.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotyfy_etl.py

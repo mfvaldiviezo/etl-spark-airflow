@@ -1,0 +1,49 @@
+[2026-02-22T00:00:01.494+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 08_spotify_albums_etl.extraer_albumes_bronze scheduled__2026-02-15T00:00:00+00:00 [queued]>
+[2026-02-22T00:00:01.504+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 08_spotify_albums_etl.extraer_albumes_bronze scheduled__2026-02-15T00:00:00+00:00 [queued]>
+[2026-02-22T00:00:01.504+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-02-22T00:00:01.522+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraer_albumes_bronze> on 2026-02-15 00:00:00+00:00
+[2026-02-22T00:00:01.529+0000] {standard_task_runner.py:60} INFO - Started process 42462 to run task
+[2026-02-22T00:00:01.535+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', '08_spotify_albums_etl', 'extraer_albumes_bronze', 'scheduled__2026-02-15T00:00:00+00:00', '--job-id', '336', '--raw', '--subdir', 'DAGS_FOLDER/spotify_albums_etl.py', '--cfg-path', '/tmp/tmpc9h_6ipu']
+[2026-02-22T00:00:01.539+0000] {standard_task_runner.py:88} INFO - Job 336: Subtask extraer_albumes_bronze
+[2026-02-22T00:00:01.565+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-22T00:00:01.635+0000] {task_command.py:423} INFO - Running <TaskInstance: 08_spotify_albums_etl.extraer_albumes_bronze scheduled__2026-02-15T00:00:00+00:00 [running]> on host 4db39a7f84f2
+[2026-02-22T00:00:01.938+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='maestria_bigdata' AIRFLOW_CTX_DAG_ID='08_spotify_albums_etl' AIRFLOW_CTX_TASK_ID='extraer_albumes_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-02-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-15T00:00:00+00:00'
+[2026-02-22T00:00:01.939+0000] {logging_mixin.py:188} INFO - 🔐 [BRONZE] Iniciando autenticación OAuth 2.0...
+[2026-02-22T00:00:02.316+0000] {logging_mixin.py:188} INFO - 
+🎤 Procesando artista: The Weeknd (1Xyo4u8uXC1ZmMpatF05PJ)
+[2026-02-22T00:00:02.317+0000] {logging_mixin.py:188} INFO -    📄 Página 1 (offset 0)...
+[2026-02-22T00:00:21.004+0000] {logging_mixin.py:188} INFO -    ❌ Error al obtener página 1 para The Weeknd: RetryError[<Future at 0x76b9e3ef3580 state=finished raised HTTPError>]
+[2026-02-22T00:00:21.005+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 382, in __call__
+    result = fn(*args, **kwargs)
+  File "/opt/airflow/dags/spotify_albums_etl.py", line 76, in _fetch_albums_page
+    resp.raise_for_status()
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ/albums?limit=20&offset=0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spotify_albums_etl.py", line 97, in extraer_albumes_bronze
+    data = _fetch_albums_page(artist_id, offset, limit)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 289, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 379, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.8/site-packages/tenacity/__init__.py", line 326, in iter
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x76b9e3ef3580 state=finished raised HTTPError>]
+[2026-02-22T00:00:21.023+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=08_spotify_albums_etl, task_id=extraer_albumes_bronze, execution_date=20260215T000000, start_date=20260222T000001, end_date=20260222T000021
+[2026-02-22T00:00:21.062+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 336 for task extraer_albumes_bronze (RetryError[<Future at 0x76b9e3ef3580 state=finished raised HTTPError>]; 42462)
+[2026-02-22T00:00:21.102+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-22T00:00:21.128+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2026-02-14T01:43:02.673+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: owd_etl.transformar_datos manual__2026-02-14T01:41:54.904188+00:00 [queued]>
+[2026-02-14T01:43:02.685+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: owd_etl.transformar_datos manual__2026-02-14T01:41:54.904188+00:00 [queued]>
+[2026-02-14T01:43:02.686+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2026-02-14T01:43:02.711+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): transformar_datos> on 2026-02-14 01:41:54.904188+00:00
+[2026-02-14T01:43:02.717+0000] {standard_task_runner.py:60} INFO - Started process 528 to run task
+[2026-02-14T01:43:02.724+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'owd_etl', 'transformar_datos', 'manual__2026-02-14T01:41:54.904188+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/owd_etl.py', '--cfg-path', '/tmp/tmpc7686hnw']
+[2026-02-14T01:43:02.728+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask transformar_datos
+[2026-02-14T01:43:02.760+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-14T01:43:02.826+0000] {task_command.py:423} INFO - Running <TaskInstance: owd_etl.transformar_datos manual__2026-02-14T01:41:54.904188+00:00 [running]> on host d25b48271c24
+[2026-02-14T01:43:03.265+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Clases_etl' AIRFLOW_CTX_DAG_ID='owd_etl' AIRFLOW_CTX_TASK_ID='transformar_datos' AIRFLOW_CTX_EXECUTION_DATE='2026-02-14T01:41:54.904188+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-14T01:41:54.904188+00:00'
+[2026-02-14T01:43:03.267+0000] {logging_mixin.py:188} INFO - ⚙️ Leyendo archivo crudo desde: /opt/***/dags/data_lake/simple_weather/raw/clima_crudo.json
+[2026-02-14T01:43:03.273+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/owd_etl.py", line 70, in transformar_datos
+    'ciudad': datos['nam'],                         # Nivel raíz
+KeyError: 'nam'
+[2026-02-14T01:43:03.290+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=owd_etl, task_id=transformar_datos, execution_date=20260214T014154, start_date=20260214T014302, end_date=20260214T014303
+[2026-02-14T01:43:03.308+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 8 for task transformar_datos ('nam'; 528)
+[2026-02-14T01:43:03.338+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-14T01:43:03.376+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,798 @@
+[2026-02-22T00:00:16.445+0000] {processor.py:161} INFO - Started process (PID=42489) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:00:16.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:00:16.448+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:16.447+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:00:16.806+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:00:16.844+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:16.844+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:00:16.877+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:16.877+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:00:16.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.466 seconds
+[2026-02-22T00:00:47.021+0000] {processor.py:161} INFO - Started process (PID=42543) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:00:47.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:00:47.025+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:47.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:00:47.372+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:00:47.449+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:47.449+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:00:47.484+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:47.484+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:00:47.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.504 seconds
+[2026-02-22T00:01:18.289+0000] {processor.py:161} INFO - Started process (PID=42581) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:01:18.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:01:18.292+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:18.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:01:18.632+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:01:18.669+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:18.668+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:01:18.699+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:18.699+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:01:18.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.466 seconds
+[2026-02-22T00:01:49.327+0000] {processor.py:161} INFO - Started process (PID=42619) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:01:49.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:01:49.330+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:49.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:01:49.655+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:01:49.687+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:49.686+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:01:49.715+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:49.715+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:01:49.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.444 seconds
+[2026-02-22T00:02:20.355+0000] {processor.py:161} INFO - Started process (PID=42654) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:02:20.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:02:20.358+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:20.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:02:20.709+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:02:20.755+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:20.755+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:02:20.791+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:20.790+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:02:20.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.475 seconds
+[2026-02-22T00:02:51.156+0000] {processor.py:161} INFO - Started process (PID=42692) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:02:51.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:02:51.160+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:51.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:02:51.494+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:02:51.532+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:51.532+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:02:51.563+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:51.562+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:02:51.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.443 seconds
+[2026-02-22T00:03:21.739+0000] {processor.py:161} INFO - Started process (PID=42727) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:03:21.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:03:21.743+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:21.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:03:22.088+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:03:22.122+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:22.121+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:03:22.151+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:22.150+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:03:22.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.473 seconds
+[2026-02-22T00:03:52.930+0000] {processor.py:161} INFO - Started process (PID=42762) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:03:52.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:03:52.934+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:52.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:03:53.276+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:03:53.309+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:53.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:03:53.336+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:53.336+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:03:53.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.440 seconds
+[2026-02-22T00:04:23.676+0000] {processor.py:161} INFO - Started process (PID=42797) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:04:23.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:04:23.679+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:23.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:04:24.025+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:04:24.060+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:24.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:04:24.092+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:24.092+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:04:24.125+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.455 seconds
+[2026-02-22T00:04:54.226+0000] {processor.py:161} INFO - Started process (PID=42832) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:04:54.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:04:54.230+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:54.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:04:54.542+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:04:54.577+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:54.577+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:04:54.603+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:54.603+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:04:54.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.408 seconds
+[2026-02-22T00:05:25.180+0000] {processor.py:161} INFO - Started process (PID=42867) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:05:25.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:05:25.183+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:25.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:05:25.551+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:05:25.587+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:25.586+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:05:25.627+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:25.627+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:05:25.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.484 seconds
+[2026-02-22T00:05:55.796+0000] {processor.py:161} INFO - Started process (PID=42902) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:05:55.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:05:55.799+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:55.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:05:56.154+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:05:56.195+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:56.194+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:05:56.225+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:56.224+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:05:56.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.492 seconds
+[2026-02-22T00:06:26.423+0000] {processor.py:161} INFO - Started process (PID=42937) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:06:26.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:06:26.426+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:26.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:06:26.788+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:06:26.826+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:26.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:06:26.856+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:26.855+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:06:26.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.493 seconds
+[2026-02-22T00:06:57.102+0000] {processor.py:161} INFO - Started process (PID=42972) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:06:57.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:06:57.105+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:57.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:06:57.461+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:06:57.498+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:57.498+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:06:57.530+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:57.529+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:06:57.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.488 seconds
+[2026-02-22T00:07:28.106+0000] {processor.py:161} INFO - Started process (PID=43007) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:07:28.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:07:28.109+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:28.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:07:28.443+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:07:28.485+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:28.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:07:28.517+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:28.517+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:07:28.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.471 seconds
+[2026-02-22T00:07:58.783+0000] {processor.py:161} INFO - Started process (PID=43042) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:07:58.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:07:58.786+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:58.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:07:59.123+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:07:59.157+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:59.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:07:59.195+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:59.195+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:07:59.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.473 seconds
+[2026-02-22T00:08:29.556+0000] {processor.py:161} INFO - Started process (PID=43077) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:08:29.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:08:29.559+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:29.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:08:29.894+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:08:29.929+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:29.929+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:08:29.960+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:29.959+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:08:30.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.464 seconds
+[2026-02-22T00:09:00.145+0000] {processor.py:161} INFO - Started process (PID=43107) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:09:00.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:09:00.149+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:00.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:09:00.654+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:09:00.700+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:00.699+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:09:00.758+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:00.756+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:09:00.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.681 seconds
+[2026-02-22T00:09:31.531+0000] {processor.py:161} INFO - Started process (PID=43142) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:09:31.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:09:31.534+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:31.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:09:31.883+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:09:31.915+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:31.914+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:09:31.944+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:31.943+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:09:31.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.470 seconds
+[2026-02-22T00:10:02.704+0000] {processor.py:161} INFO - Started process (PID=43175) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:10:02.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:10:02.708+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:02.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:10:03.062+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:10:03.094+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:03.093+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:10:03.123+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:03.123+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:10:03.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.477 seconds
+[2026-02-22T00:10:33.877+0000] {processor.py:161} INFO - Started process (PID=43212) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:10:33.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:10:33.880+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:33.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:10:34.249+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:10:34.284+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:34.283+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:10:34.313+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:34.313+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:10:34.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.497 seconds
+[2026-02-22T00:11:05.000+0000] {processor.py:161} INFO - Started process (PID=43247) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:11:05.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:11:05.003+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:05.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:11:05.347+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:11:05.382+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:05.382+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:11:05.423+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:05.422+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:11:05.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.486 seconds
+[2026-02-22T00:11:35.737+0000] {processor.py:161} INFO - Started process (PID=43280) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:11:35.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:11:35.740+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:35.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:11:36.096+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:11:36.131+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:36.130+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:11:36.160+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:36.160+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:11:36.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.479 seconds
+[2026-02-22T00:12:06.955+0000] {processor.py:161} INFO - Started process (PID=43317) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:12:06.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:12:06.958+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:06.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:12:07.277+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:12:07.310+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:07.310+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:12:07.339+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:07.339+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:12:07.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.618 seconds
+[2026-02-22T00:12:37.696+0000] {processor.py:161} INFO - Started process (PID=43352) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:12:37.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:12:37.699+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:37.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:12:38.014+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:12:38.046+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:38.046+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:12:38.075+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:38.075+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:12:38.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.436 seconds
+[2026-02-22T00:13:08.385+0000] {processor.py:161} INFO - Started process (PID=43385) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:13:08.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:13:08.389+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:08.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:13:08.738+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:13:08.774+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:08.774+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:13:08.963+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:08.963+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:13:09.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.633 seconds
+[2026-02-22T00:13:39.744+0000] {processor.py:161} INFO - Started process (PID=43422) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:13:39.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:13:39.747+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:39.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:13:40.124+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:13:40.161+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:40.160+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:13:40.192+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:40.192+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:13:40.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.486 seconds
+[2026-02-22T00:14:10.913+0000] {processor.py:161} INFO - Started process (PID=43455) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:14:10.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:14:10.916+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:10.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:14:11.296+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:14:11.333+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:11.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:14:11.521+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:11.521+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:14:11.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.665 seconds
+[2026-02-22T00:14:42.344+0000] {processor.py:161} INFO - Started process (PID=43492) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:14:42.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:14:42.347+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:42.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:14:42.683+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:14:42.717+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:42.716+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:14:42.746+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:42.746+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:14:42.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.623 seconds
+[2026-02-22T00:15:13.643+0000] {processor.py:161} INFO - Started process (PID=43525) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:15:13.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:15:13.646+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:13.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:15:14.023+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:15:14.233+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:14.232+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:15:14.258+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:14.258+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:15:14.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.675 seconds
+[2026-02-22T00:15:44.777+0000] {processor.py:161} INFO - Started process (PID=43560) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:15:44.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:15:44.780+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:44.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:15:45.138+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:15:45.174+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:45.174+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:15:45.366+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:45.366+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:15:45.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.622 seconds
+[2026-02-22T00:16:16.387+0000] {processor.py:161} INFO - Started process (PID=43597) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:16:16.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:16:16.390+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:16.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:16:16.721+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:16:16.761+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:16.760+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:16:16.788+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:16.788+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:16:16.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.433 seconds
+[2026-02-22T00:16:47.526+0000] {processor.py:161} INFO - Started process (PID=43630) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:16:47.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:16:47.529+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:47.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:16:47.889+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:16:47.921+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:47.920+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:16:48.098+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:48.098+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:16:48.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.626 seconds
+[2026-02-22T00:17:18.844+0000] {processor.py:161} INFO - Started process (PID=43665) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:17:18.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:17:18.847+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:18.847+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:17:19.379+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:17:19.408+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:19.408+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:17:19.432+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:19.432+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:17:19.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.625 seconds
+[2026-02-22T00:17:49.944+0000] {processor.py:161} INFO - Started process (PID=43700) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:17:49.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:17:49.947+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:49.947+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:17:50.314+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:17:50.494+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:50.494+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:17:50.518+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:50.518+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:17:50.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.629 seconds
+[2026-02-22T00:18:21.392+0000] {processor.py:161} INFO - Started process (PID=43735) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:18:21.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:18:21.395+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:21.395+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:18:21.748+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:18:21.779+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:21.779+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:18:21.958+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:21.958+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:18:22.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.620 seconds
+[2026-02-22T00:18:52.795+0000] {processor.py:161} INFO - Started process (PID=43770) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:18:52.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:18:52.798+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:52.797+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:18:53.150+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:18:53.319+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:53.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:18:53.345+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:53.345+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:18:53.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.606 seconds
+[2026-02-22T00:19:24.211+0000] {processor.py:161} INFO - Started process (PID=43805) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:19:24.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:19:24.214+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:24.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:19:24.714+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:19:24.741+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:24.740+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:19:24.766+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:24.766+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:19:24.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.611 seconds
+[2026-02-22T00:19:55.584+0000] {processor.py:161} INFO - Started process (PID=43840) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:19:55.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:19:55.587+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:55.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:19:56.141+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:19:56.171+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:56.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:19:56.198+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:56.197+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:19:56.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.669 seconds
+[2026-02-22T00:20:27.029+0000] {processor.py:161} INFO - Started process (PID=43875) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:20:27.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:20:27.033+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:27.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:20:27.532+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:20:27.560+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:27.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:20:27.584+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:27.584+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:20:27.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.586 seconds
+[2026-02-22T00:20:58.516+0000] {processor.py:161} INFO - Started process (PID=43910) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:20:58.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:20:58.519+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:58.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:20:59.020+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:20:59.048+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:59.048+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:20:59.073+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:59.073+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:20:59.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.738 seconds
+[2026-02-22T00:21:29.974+0000] {processor.py:161} INFO - Started process (PID=43945) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:21:29.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:21:29.977+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:21:29.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:21:30.490+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:21:30.518+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:21:30.517+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:21:30.542+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:21:30.542+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:21:30.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.625 seconds
+[2026-02-22T00:22:02.317+0000] {processor.py:161} INFO - Started process (PID=43982) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:22:02.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:22:02.320+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:02.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:22:02.838+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:22:02.874+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:02.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:22:02.903+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:02.903+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:22:02.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.619 seconds
+[2026-02-22T00:22:33.682+0000] {processor.py:161} INFO - Started process (PID=44017) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:22:33.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:22:33.685+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:33.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:22:34.172+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:22:34.201+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:34.200+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:22:34.226+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:34.226+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:22:34.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.601 seconds
+[2026-02-22T00:23:04.797+0000] {processor.py:161} INFO - Started process (PID=44052) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:23:04.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:23:04.801+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:04.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:23:05.300+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:23:05.330+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:05.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:23:05.357+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:05.357+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:23:05.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.613 seconds
+[2026-02-22T00:23:36.115+0000] {processor.py:161} INFO - Started process (PID=44087) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:23:36.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:23:36.118+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:36.117+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:23:36.624+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:23:36.659+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:36.658+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:23:36.689+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:36.689+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:23:36.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.610 seconds
+[2026-02-22T00:24:07.494+0000] {processor.py:161} INFO - Started process (PID=44122) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:24:07.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:24:07.497+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:07.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:24:07.983+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:24:08.013+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:08.012+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:24:08.041+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:08.041+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:24:08.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.603 seconds
+[2026-02-22T00:24:38.779+0000] {processor.py:161} INFO - Started process (PID=44157) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:24:38.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:24:38.783+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:38.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:24:39.272+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:24:39.309+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:39.308+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:24:39.339+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:39.338+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:24:39.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.594 seconds
+[2026-02-22T00:25:10.098+0000] {processor.py:161} INFO - Started process (PID=44192) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:25:10.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:25:10.101+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:10.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:25:10.579+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:25:10.606+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:10.606+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:25:10.633+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:10.632+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:25:10.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.593 seconds
+[2026-02-22T00:25:41.022+0000] {processor.py:161} INFO - Started process (PID=44227) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:25:41.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:25:41.025+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:41.024+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:25:41.549+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:25:41.579+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:41.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:25:41.606+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:41.606+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:25:41.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.625 seconds
+[2026-02-22T00:26:12.343+0000] {processor.py:161} INFO - Started process (PID=44262) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:26:12.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:26:12.347+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:12.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:26:12.834+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:26:12.865+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:12.864+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:26:12.892+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:12.891+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:26:12.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.615 seconds
+[2026-02-22T00:26:43.671+0000] {processor.py:161} INFO - Started process (PID=44297) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:26:43.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:26:43.674+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:43.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:26:44.167+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:26:44.200+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:44.200+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:26:44.226+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:44.226+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:26:44.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.587 seconds
+[2026-02-22T00:27:14.963+0000] {processor.py:161} INFO - Started process (PID=44332) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:27:14.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:27:14.966+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:14.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:27:15.461+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:27:15.489+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:15.489+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:27:15.519+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:15.519+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:27:15.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.616 seconds
+[2026-02-22T00:27:46.253+0000] {processor.py:161} INFO - Started process (PID=44367) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:27:46.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:27:46.257+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:46.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:27:46.754+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:27:46.785+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:46.784+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:27:46.811+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:46.811+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:27:46.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.616 seconds
+[2026-02-22T00:28:17.600+0000] {processor.py:161} INFO - Started process (PID=44402) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:28:17.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:28:17.603+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:17.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:28:18.108+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:28:18.138+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:18.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:28:18.164+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:18.164+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:28:18.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.632 seconds
+[2026-02-22T00:28:48.935+0000] {processor.py:161} INFO - Started process (PID=44437) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:28:48.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:28:48.938+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:48.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:28:49.451+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:28:49.483+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:49.483+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:28:49.509+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:49.509+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:28:49.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.633 seconds
+[2026-02-22T00:29:20.293+0000] {processor.py:161} INFO - Started process (PID=44472) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:29:20.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:29:20.296+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:20.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:29:20.780+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:29:20.810+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:20.809+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:29:20.836+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:20.836+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:29:20.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.601 seconds
+[2026-02-22T00:29:51.607+0000] {processor.py:161} INFO - Started process (PID=44507) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:29:51.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:29:51.610+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:51.610+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:29:52.117+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:29:52.148+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:52.147+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:29:52.176+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:52.176+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:29:52.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.627 seconds
+[2026-02-22T00:30:22.951+0000] {processor.py:161} INFO - Started process (PID=44542) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:30:22.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:30:22.955+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:22.954+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:30:23.468+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:30:23.500+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:23.499+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:30:23.525+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:23.525+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:30:23.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.645 seconds
+[2026-02-22T00:30:54.319+0000] {processor.py:161} INFO - Started process (PID=44577) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:30:54.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:30:54.322+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:54.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:30:54.833+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:30:54.865+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:54.865+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:30:54.892+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:54.892+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:30:54.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.629 seconds
+[2026-02-22T00:31:25.260+0000] {processor.py:161} INFO - Started process (PID=44612) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:31:25.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:31:25.263+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:25.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:31:25.793+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:31:25.827+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:25.827+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:31:25.854+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:25.854+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:31:25.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.651 seconds
+[2026-02-22T00:31:56.642+0000] {processor.py:161} INFO - Started process (PID=44647) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:31:56.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:31:56.645+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:56.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:31:57.119+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:31:57.156+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:57.156+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:31:57.184+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:57.183+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:31:57.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.600 seconds
+[2026-02-22T00:32:27.990+0000] {processor.py:161} INFO - Started process (PID=44682) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:32:27.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:32:27.993+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:27.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:32:28.479+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:32:28.509+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:28.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:32:28.535+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:28.535+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:32:28.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.604 seconds
+[2026-02-22T00:32:59.140+0000] {processor.py:161} INFO - Started process (PID=44717) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:32:59.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:32:59.143+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:59.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:32:59.661+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:32:59.691+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:59.691+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:32:59.718+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:59.717+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:32:59.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.633 seconds
+[2026-02-22T00:33:30.606+0000] {processor.py:161} INFO - Started process (PID=44752) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:33:30.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:33:30.610+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:33:30.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:33:31.137+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:33:31.172+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:33:31.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:33:31.203+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:33:31.203+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:33:31.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.657 seconds
+[2026-02-22T00:34:01.864+0000] {processor.py:161} INFO - Started process (PID=44785) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:34:01.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:34:01.867+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:01.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:34:02.387+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:34:02.413+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:02.413+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:34:02.437+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:02.437+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:34:02.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.629 seconds
+[2026-02-22T00:34:32.836+0000] {processor.py:161} INFO - Started process (PID=44822) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:34:32.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:34:32.839+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:32.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:34:33.315+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:34:33.345+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:33.344+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:34:33.368+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:33.368+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:34:33.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.563 seconds
+[2026-02-22T00:35:03.858+0000] {processor.py:161} INFO - Started process (PID=44855) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:35:03.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:35:03.862+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:03.861+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:35:04.371+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:35:04.398+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:04.397+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:35:04.423+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:04.423+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:35:04.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.599 seconds
+[2026-02-22T00:35:34.755+0000] {processor.py:161} INFO - Started process (PID=44892) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:35:34.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:35:34.759+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:34.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:35:35.249+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:35:35.279+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:35.278+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:35:35.303+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:35.302+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:35:35.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.605 seconds
+[2026-02-22T00:36:05.702+0000] {processor.py:161} INFO - Started process (PID=44927) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:36:05.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:36:05.705+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:05.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:36:06.201+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:36:06.230+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:06.229+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:36:06.259+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:06.259+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:36:06.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.615 seconds
+[2026-02-22T00:36:36.602+0000] {processor.py:161} INFO - Started process (PID=44962) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:36:36.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:36:36.605+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:36.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:36:37.141+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:36:37.174+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:37.174+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:36:37.205+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:37.204+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:36:37.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.637 seconds
+[2026-02-22T00:37:07.329+0000] {processor.py:161} INFO - Started process (PID=44997) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:37:07.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:37:07.332+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:07.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:37:07.786+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:37:07.812+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:07.811+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:37:07.838+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:07.838+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:37:07.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.576 seconds
+[2026-02-22T00:37:38.048+0000] {processor.py:161} INFO - Started process (PID=45030) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:37:38.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:37:38.051+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:38.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:37:38.518+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:37:38.543+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:38.542+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:37:38.566+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:38.566+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:37:38.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.572 seconds
+[2026-02-22T00:38:09.506+0000] {processor.py:161} INFO - Started process (PID=45065) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:38:09.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:38:09.509+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:09.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:38:10.045+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:38:10.074+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:10.073+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:38:10.099+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:10.099+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:38:10.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.623 seconds
+[2026-02-22T00:38:41.122+0000] {processor.py:161} INFO - Started process (PID=45100) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:38:41.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:38:41.125+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:41.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:38:41.630+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:38:41.660+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:41.660+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:38:41.686+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:41.686+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:38:41.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.621 seconds
+[2026-02-22T00:39:12.489+0000] {processor.py:161} INFO - Started process (PID=45135) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:39:12.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:39:12.492+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:12.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:39:13.030+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:39:13.066+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:13.066+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:39:13.093+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:13.092+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:39:13.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.661 seconds
+[2026-02-22T00:39:44.053+0000] {processor.py:161} INFO - Started process (PID=45170) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:39:44.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:39:44.056+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:44.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:39:44.540+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:39:44.570+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:44.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:39:44.596+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:44.596+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:39:44.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.574 seconds
+[2026-02-22T00:40:15.414+0000] {processor.py:161} INFO - Started process (PID=45205) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:40:15.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:40:15.418+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:15.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:40:15.975+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:40:16.003+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:16.002+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:40:16.034+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:16.033+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:40:16.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.657 seconds
+[2026-02-22T00:40:46.980+0000] {processor.py:161} INFO - Started process (PID=45240) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:40:46.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:40:46.983+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:46.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:40:47.475+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:40:47.502+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:47.502+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:40:47.526+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:47.526+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:40:47.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.604 seconds
+[2026-02-22T00:41:18.288+0000] {processor.py:161} INFO - Started process (PID=45275) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:41:18.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:41:18.292+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:18.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:41:18.849+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:41:18.876+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:18.876+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:41:18.905+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:18.905+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:41:18.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.675 seconds
+[2026-02-22T00:41:49.861+0000] {processor.py:161} INFO - Started process (PID=45310) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:41:49.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:41:49.864+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:49.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:41:50.363+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:41:50.393+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:50.393+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:41:50.420+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:50.420+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:41:50.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.614 seconds
+[2026-02-22T00:42:21.028+0000] {processor.py:161} INFO - Started process (PID=45344) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:42:21.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:42:21.031+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:21.030+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:42:21.577+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:42:21.606+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:21.606+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:42:21.638+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:21.637+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:42:21.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.646 seconds
+[2026-02-22T00:42:51.974+0000] {processor.py:161} INFO - Started process (PID=45379) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:42:51.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:42:51.978+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:51.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:42:52.460+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:42:52.488+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:52.487+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:42:52.514+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:52.513+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:42:52.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.574 seconds
+[2026-02-22T00:43:23.734+0000] {processor.py:161} INFO - Started process (PID=45415) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:43:23.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:43:23.738+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:23.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:43:24.275+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:43:24.306+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:24.305+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:43:24.334+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:24.333+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:43:24.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.657 seconds
+[2026-02-22T00:43:55.402+0000] {processor.py:161} INFO - Started process (PID=45450) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:43:55.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:43:55.406+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:55.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:43:55.918+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:43:55.948+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:55.947+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:43:55.974+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:55.974+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:43:56.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.629 seconds
+[2026-02-22T00:44:26.715+0000] {processor.py:161} INFO - Started process (PID=45485) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:44:26.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:44:26.719+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:26.719+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:44:27.253+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:44:27.280+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:27.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:44:27.306+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:27.306+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:44:27.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.647 seconds
+[2026-02-22T00:44:58.387+0000] {processor.py:161} INFO - Started process (PID=45520) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:44:58.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:44:58.391+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:58.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:44:58.898+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:44:58.926+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:58.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:44:58.955+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:58.954+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:44:59.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.628 seconds
+[2026-02-22T00:45:29.729+0000] {processor.py:161} INFO - Started process (PID=45555) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:45:29.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:45:29.733+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:45:29.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:45:30.283+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:45:30.313+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:45:30.312+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:45:30.340+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:45:30.340+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:45:30.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.671 seconds
+[2026-02-22T00:46:01.969+0000] {processor.py:161} INFO - Started process (PID=45592) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:46:01.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:46:01.972+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:01.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:46:02.459+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:46:02.491+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:02.491+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:46:02.517+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:02.517+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:46:02.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.606 seconds
+[2026-02-22T00:46:33.291+0000] {processor.py:161} INFO - Started process (PID=45625) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:46:33.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:46:33.294+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:33.294+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:46:33.832+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:46:33.860+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:33.859+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:46:33.886+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:33.886+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:46:33.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.629 seconds
+[2026-02-22T00:47:04.394+0000] {processor.py:161} INFO - Started process (PID=45659) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:47:04.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:47:04.398+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:04.397+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:47:04.881+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:47:04.913+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:04.912+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:47:04.939+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:04.939+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:47:04.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.579 seconds
+[2026-02-22T00:47:35.896+0000] {processor.py:161} INFO - Started process (PID=45694) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:47:35.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:47:35.900+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:35.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:47:36.455+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:47:36.486+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:36.486+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:47:36.517+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:36.517+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:47:36.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.658 seconds
+[2026-02-22T00:48:07.783+0000] {processor.py:161} INFO - Started process (PID=45730) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:48:07.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:48:07.787+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:07.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:48:08.301+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:48:08.330+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:08.329+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:48:08.355+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:08.354+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:48:08.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.602 seconds
+[2026-02-22T00:48:38.894+0000] {processor.py:161} INFO - Started process (PID=45764) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:48:38.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:48:38.898+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:38.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:48:39.434+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:48:39.481+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:39.479+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:48:39.510+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:39.510+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:48:39.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.653 seconds
+[2026-02-22T00:49:10.783+0000] {processor.py:161} INFO - Started process (PID=45800) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:49:10.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:49:10.787+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:10.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:49:11.308+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:49:11.337+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:11.337+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:49:11.364+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:11.363+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:49:11.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.645 seconds
+[2026-02-22T00:49:41.923+0000] {processor.py:161} INFO - Started process (PID=45834) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:49:41.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:49:41.926+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:41.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:49:42.492+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:49:42.526+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:42.525+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:49:42.559+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:42.558+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:49:42.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.670 seconds
+[2026-02-22T00:50:13.613+0000] {processor.py:161} INFO - Started process (PID=45872) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:50:13.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:50:13.617+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:13.616+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:50:14.073+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:50:14.101+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:14.100+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:50:14.131+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:14.130+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:50:14.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.573 seconds
+[2026-02-22T00:50:44.470+0000] {processor.py:161} INFO - Started process (PID=45907) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:50:44.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:50:44.475+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:44.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:50:45.107+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:50:45.138+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:45.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:50:45.165+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:45.165+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:50:45.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.752 seconds
+[2026-02-22T00:51:15.922+0000] {processor.py:161} INFO - Started process (PID=45942) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:51:15.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:51:15.925+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:15.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:51:16.419+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:51:16.451+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:16.451+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:51:16.478+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:16.477+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:51:16.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.614 seconds
+[2026-02-22T00:51:47.419+0000] {processor.py:161} INFO - Started process (PID=45977) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:51:47.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:51:47.423+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:47.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:51:48.014+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:51:48.048+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:48.047+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:51:48.077+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:48.076+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:51:48.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.718 seconds
+[2026-02-22T00:52:18.238+0000] {processor.py:161} INFO - Started process (PID=46012) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:52:18.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:52:18.241+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:18.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:52:18.713+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:52:18.739+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:18.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:52:18.762+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:18.761+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:52:18.810+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.579 seconds
+[2026-02-22T00:52:49.420+0000] {processor.py:161} INFO - Started process (PID=46047) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:52:49.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:52:49.423+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:49.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:52:49.964+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:52:49.993+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:49.992+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:52:50.024+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:50.023+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:52:50.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.663 seconds
+[2026-02-22T00:53:20.995+0000] {processor.py:161} INFO - Started process (PID=46087) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:53:20.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:53:20.998+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:20.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:53:21.511+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:53:21.541+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:21.541+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:53:21.567+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:21.566+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:53:21.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.630 seconds
+[2026-02-22T00:53:52.056+0000] {processor.py:161} INFO - Started process (PID=46122) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:53:52.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:53:52.059+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:52.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:53:52.569+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:53:52.607+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:52.606+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:53:52.643+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:52.643+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:53:52.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.644 seconds
+[2026-02-22T00:54:22.813+0000] {processor.py:161} INFO - Started process (PID=46157) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:54:22.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:54:22.816+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:22.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:54:23.190+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:54:23.225+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:23.225+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:54:23.255+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:23.255+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:54:23.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.478 seconds
+[2026-02-22T00:54:53.850+0000] {processor.py:161} INFO - Started process (PID=46192) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:54:53.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:54:53.853+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:53.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:54:54.192+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:54:54.228+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:54.228+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:54:54.259+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:54.259+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:54:54.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.470 seconds
+[2026-02-22T00:55:24.599+0000] {processor.py:161} INFO - Started process (PID=46227) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:55:24.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:55:24.602+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:24.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:55:24.936+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:55:24.971+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:24.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:55:25.001+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:25.000+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:55:25.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.435 seconds
+[2026-02-22T00:55:55.588+0000] {processor.py:161} INFO - Started process (PID=46262) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:55:55.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:55:55.591+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:55.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:55:55.946+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:55:55.988+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:55.987+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:55:56.020+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:56.020+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:55:56.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.471 seconds
+[2026-02-22T00:56:26.225+0000] {processor.py:161} INFO - Started process (PID=46297) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:56:26.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:56:26.229+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:26.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:56:26.617+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:56:26.655+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:26.654+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:56:26.689+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:26.689+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:56:26.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.500 seconds
+[2026-02-22T00:56:56.912+0000] {processor.py:161} INFO - Started process (PID=46332) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:56:56.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:56:56.915+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:56.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:56:57.249+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:56:57.284+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:57.284+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:56:57.314+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:57.314+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:56:57.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.463 seconds
+[2026-02-22T00:57:27.773+0000] {processor.py:161} INFO - Started process (PID=46367) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:57:27.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:57:27.777+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:27.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:57:28.148+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:57:28.182+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:28.182+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:57:28.217+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:28.217+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:57:28.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.479 seconds
+[2026-02-22T00:57:58.906+0000] {processor.py:161} INFO - Started process (PID=46400) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:57:58.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:57:58.909+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:58.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:57:59.323+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:57:59.353+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:59.352+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:57:59.385+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:59.384+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:57:59.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.511 seconds
+[2026-02-22T00:58:29.564+0000] {processor.py:161} INFO - Started process (PID=46429) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:58:29.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:58:29.567+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:58:29.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:58:29.899+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:58:29.934+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:58:29.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:58:29.967+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:58:29.967+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:58:30.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.442 seconds
+[2026-02-22T00:59:01.257+0000] {processor.py:161} INFO - Started process (PID=46465) to work on /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:59:01.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/owd_etl_robusto.py for tasks to queue
+[2026-02-22T00:59:01.264+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:59:01.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:59:01.738+0000] {processor.py:840} INFO - DAG(s) 'owd_etl_robusto' retrieved from /opt/airflow/dags/owd_etl_robusto.py
+[2026-02-22T00:59:01.772+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:59:01.771+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:59:01.801+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:59:01.800+0000] {dag.py:3823} INFO - Setting next_dagrun for owd_etl_robusto to 2026-02-21 23:00:00+00:00, run_after=2026-02-22 00:00:00+00:00
+[2026-02-22T00:59:01.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/owd_etl_robusto.py took 0.604 seconds

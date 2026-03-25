@@ -1,0 +1,19 @@
+[2026-02-21T06:59:43.382+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10_crypto_live_etl.extraer_crypto_bronze scheduled__2026-02-21T05:00:00+00:00 [queued]>
+[2026-02-21T06:59:43.421+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10_crypto_live_etl.extraer_crypto_bronze scheduled__2026-02-21T05:00:00+00:00 [queued]>
+[2026-02-21T06:59:43.441+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-02-21T06:59:43.515+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraer_crypto_bronze> on 2026-02-21 05:00:00+00:00
+[2026-02-21T06:59:43.543+0000] {standard_task_runner.py:60} INFO - Started process 12833 to run task
+[2026-02-21T06:59:43.576+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', '10_crypto_live_etl', 'extraer_crypto_bronze', 'scheduled__2026-02-21T05:00:00+00:00', '--job-id', '241', '--raw', '--subdir', 'DAGS_FOLDER/crypto_live_etl.py', '--cfg-path', '/tmp/tmpke2ffmrd']
+[2026-02-21T06:59:43.613+0000] {standard_task_runner.py:88} INFO - Job 241: Subtask extraer_crypto_bronze
+[2026-02-21T06:59:43.667+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-21T06:59:43.904+0000] {task_command.py:423} INFO - Running <TaskInstance: 10_crypto_live_etl.extraer_crypto_bronze scheduled__2026-02-21T05:00:00+00:00 [running]> on host 4db39a7f84f2
+[2026-02-21T06:59:45.075+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='maestria_bigdata' AIRFLOW_CTX_DAG_ID='10_crypto_live_etl' AIRFLOW_CTX_TASK_ID='extraer_crypto_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-02-21T05:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-21T05:00:00+00:00'
+[2026-02-21T06:59:45.094+0000] {logging_mixin.py:188} INFO - 🚀 [BRONZE] Conectando al Mercado Cripto 24/7...
+[2026-02-21T06:59:46.058+0000] {logging_mixin.py:188} INFO -    ✅ Página 1 (100 monedas) extraída con éxito.
+[2026-02-21T06:59:49.723+0000] {logging_mixin.py:188} INFO -    ✅ Página 2 (100 monedas) extraída con éxito.
+[2026-02-21T06:59:53.241+0000] {logging_mixin.py:188} INFO -    ✅ Página 3 (100 monedas) extraída con éxito.
+[2026-02-21T06:59:56.419+0000] {logging_mixin.py:188} INFO - 📦 [BRONZE] Extraídas 300 criptomonedas del Top Global.
+[2026-02-21T06:59:56.421+0000] {python.py:201} INFO - Done. Returned value was: /opt/***/dags/data_lake/crypto_project/bronze/raw_crypto_20260221_065956.parquet
+[2026-02-21T06:59:56.480+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=10_crypto_live_etl, task_id=extraer_crypto_bronze, execution_date=20260221T050000, start_date=20260221T065943, end_date=20260221T065956
+[2026-02-21T06:59:56.596+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-21T06:59:56.699+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

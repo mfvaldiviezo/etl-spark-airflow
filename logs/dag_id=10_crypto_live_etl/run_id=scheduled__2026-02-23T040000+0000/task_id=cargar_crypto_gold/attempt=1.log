@@ -1,0 +1,21 @@
+[2026-02-23T05:00:19.164+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10_crypto_live_etl.cargar_crypto_gold scheduled__2026-02-23T04:00:00+00:00 [queued]>
+[2026-02-23T05:00:19.188+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10_crypto_live_etl.cargar_crypto_gold scheduled__2026-02-23T04:00:00+00:00 [queued]>
+[2026-02-23T05:00:19.189+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-02-23T05:00:19.219+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): cargar_crypto_gold> on 2026-02-23 04:00:00+00:00
+[2026-02-23T05:00:19.227+0000] {standard_task_runner.py:60} INFO - Started process 47349 to run task
+[2026-02-23T05:00:19.244+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', '10_crypto_live_etl', 'cargar_crypto_gold', 'scheduled__2026-02-23T04:00:00+00:00', '--job-id', '359', '--raw', '--subdir', 'DAGS_FOLDER/crypto_live_etl.py', '--cfg-path', '/tmp/tmpd7ocz21b']
+[2026-02-23T05:00:19.250+0000] {standard_task_runner.py:88} INFO - Job 359: Subtask cargar_crypto_gold
+[2026-02-23T05:00:19.303+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-23T05:00:19.404+0000] {task_command.py:423} INFO - Running <TaskInstance: 10_crypto_live_etl.cargar_crypto_gold scheduled__2026-02-23T04:00:00+00:00 [running]> on host 4db39a7f84f2
+[2026-02-23T05:00:19.724+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='maestria_bigdata' AIRFLOW_CTX_DAG_ID='10_crypto_live_etl' AIRFLOW_CTX_TASK_ID='cargar_crypto_gold' AIRFLOW_CTX_EXECUTION_DATE='2026-02-23T04:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-23T04:00:00+00:00'
+[2026-02-23T05:00:19.726+0000] {logging_mixin.py:188} INFO - 🎯 [GOLD] Ejecutando Merge Bursátil (CDC)...
+[2026-02-23T05:00:19.854+0000] {logging_mixin.py:188} INFO - ==================================================
+[2026-02-23T05:00:19.855+0000] {logging_mixin.py:188} INFO - 📈 REPORTE CDC EN VIVO:
+[2026-02-23T05:00:19.856+0000] {logging_mixin.py:188} INFO -    🔄 Precios Actualizados (Updates): 300
+[2026-02-23T05:00:19.856+0000] {logging_mixin.py:188} INFO -    ✨ Nuevas Monedas en el Top 300 (Inserts): 0
+[2026-02-23T05:00:19.857+0000] {logging_mixin.py:188} INFO -    🏦 Total de activos rastreados: 309
+[2026-02-23T05:00:19.857+0000] {logging_mixin.py:188} INFO - ==================================================
+[2026-02-23T05:00:19.858+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-02-23T05:00:19.870+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=10_crypto_live_etl, task_id=cargar_crypto_gold, execution_date=20260223T040000, start_date=20260223T050019, end_date=20260223T050019
+[2026-02-23T05:00:19.935+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-23T05:00:19.956+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

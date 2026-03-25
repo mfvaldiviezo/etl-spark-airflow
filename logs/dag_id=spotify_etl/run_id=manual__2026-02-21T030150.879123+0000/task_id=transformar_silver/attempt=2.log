@@ -1,0 +1,53 @@
+[2026-02-21T03:04:17.646+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_etl.transformar_silver manual__2026-02-21T03:01:50.879123+00:00 [queued]>
+[2026-02-21T03:04:17.659+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_etl.transformar_silver manual__2026-02-21T03:01:50.879123+00:00 [queued]>
+[2026-02-21T03:04:17.661+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2026-02-21T03:04:17.682+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): transformar_silver> on 2026-02-21 03:01:50.879123+00:00
+[2026-02-21T03:04:17.690+0000] {standard_task_runner.py:60} INFO - Started process 5479 to run task
+[2026-02-21T03:04:17.701+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_etl', 'transformar_silver', 'manual__2026-02-21T03:01:50.879123+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/spotyfy_etl.py', '--cfg-path', '/tmp/tmp5ecwsa11']
+[2026-02-21T03:04:17.706+0000] {standard_task_runner.py:88} INFO - Job 159: Subtask transformar_silver
+[2026-02-21T03:04:17.735+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-21T03:04:17.805+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_etl.transformar_silver manual__2026-02-21T03:01:50.879123+00:00 [running]> on host 4db39a7f84f2
+[2026-02-21T03:04:18.290+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='maestria_bigdata' AIRFLOW_CTX_DAG_ID='spotify_etl' AIRFLOW_CTX_TASK_ID='transformar_silver' AIRFLOW_CTX_EXECUTION_DATE='2026-02-21T03:01:50.879123+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-21T03:01:50.879123+00:00'
+[2026-02-21T03:04:18.293+0000] {logging_mixin.py:188} INFO - ⚙️ [SILVER] Procesando: /opt/***/dags/data_lake/spotify_project/bronze/raw_artists_20260221_0302.parquet
+[2026-02-21T03:04:18.373+0000] {logging_mixin.py:188} INFO - external_urls    {'spotify': 'https://open.spotify.com/artist/1...
+href             https://api.spotify.com/v1/artists/1Xyo4u8uXC1...
+id                                          1Xyo4u8uXC1ZmMpatF05PJ
+images           [{'height': 640, 'url': 'https://i.scdn.co/ima...
+name                                                    The Weeknd
+type                                                        artist
+uri                          spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ
+Name: 0, dtype: object
+[2026-02-21T03:04:18.376+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'followers'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spotyfy_etl.py", line 101, in transformar_silver
+    'followers': row['followers'].get('total'),
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'followers'
+[2026-02-21T03:04:18.407+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_etl, task_id=transformar_silver, execution_date=20260221T030150, start_date=20260221T030417, end_date=20260221T030418
+[2026-02-21T03:04:18.453+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 159 for task transformar_silver ('followers'; 5479)
+[2026-02-21T03:04:18.516+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-21T03:04:18.573+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

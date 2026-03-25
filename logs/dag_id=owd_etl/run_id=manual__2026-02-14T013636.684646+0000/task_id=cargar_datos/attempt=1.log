@@ -1,0 +1,19 @@
+[2026-02-14T01:36:47.136+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: owd_etl.cargar_datos manual__2026-02-14T01:36:36.684646+00:00 [queued]>
+[2026-02-14T01:36:47.147+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: owd_etl.cargar_datos manual__2026-02-14T01:36:36.684646+00:00 [queued]>
+[2026-02-14T01:36:47.148+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-02-14T01:36:47.166+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): cargar_datos> on 2026-02-14 01:36:36.684646+00:00
+[2026-02-14T01:36:47.172+0000] {standard_task_runner.py:60} INFO - Started process 385 to run task
+[2026-02-14T01:36:47.177+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'owd_etl', 'cargar_datos', 'manual__2026-02-14T01:36:36.684646+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/owd_etl.py', '--cfg-path', '/tmp/tmp83wno0dm']
+[2026-02-14T01:36:47.180+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask cargar_datos
+[2026-02-14T01:36:47.210+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-14T01:36:47.278+0000] {task_command.py:423} INFO - Running <TaskInstance: owd_etl.cargar_datos manual__2026-02-14T01:36:36.684646+00:00 [running]> on host d25b48271c24
+[2026-02-14T01:36:47.652+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Clases_etl' AIRFLOW_CTX_DAG_ID='owd_etl' AIRFLOW_CTX_TASK_ID='cargar_datos' AIRFLOW_CTX_EXECUTION_DATE='2026-02-14T01:36:36.684646+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-14T01:36:36.684646+00:00'
+[2026-02-14T01:36:47.654+0000] {logging_mixin.py:188} INFO - 📈 Cargando datos finales desde: /opt/***/dags/data_lake/simple_weather/clean/clima_limpio.parquet
+[2026-02-14T01:36:47.744+0000] {logging_mixin.py:188} INFO - 
+🚀 CARGA EXITOSA. Listo para Power BI / Tableau:
+[2026-02-14T01:36:47.757+0000] {logging_mixin.py:188} INFO -   ciudad pais  temperatura_actual  humedad clima_descripcion
+0   Loja   EC               13.23       96              Rain
+[2026-02-14T01:36:47.758+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-02-14T01:36:47.769+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=owd_etl, task_id=cargar_datos, execution_date=20260214T013636, start_date=20260214T013647, end_date=20260214T013647
+[2026-02-14T01:36:47.831+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-14T01:36:47.853+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

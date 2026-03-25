@@ -1,0 +1,28 @@
+[2026-02-21T00:40:30.122+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: owd_etl_robusto.cargar_datos manual__2026-02-21T00:40:16.809686+00:00 [queued]>
+[2026-02-21T00:40:30.134+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: owd_etl_robusto.cargar_datos manual__2026-02-21T00:40:16.809686+00:00 [queued]>
+[2026-02-21T00:40:30.135+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-02-21T00:40:30.157+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): cargar_datos> on 2026-02-21 00:40:16.809686+00:00
+[2026-02-21T00:40:30.167+0000] {standard_task_runner.py:60} INFO - Started process 478 to run task
+[2026-02-21T00:40:30.171+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'owd_etl_robusto', 'cargar_datos', 'manual__2026-02-21T00:40:16.809686+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/owd_etl_robusto.py', '--cfg-path', '/tmp/tmp_iadc02z']
+[2026-02-21T00:40:30.174+0000] {standard_task_runner.py:88} INFO - Job 128: Subtask cargar_datos
+[2026-02-21T00:40:30.199+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-21T00:40:30.261+0000] {task_command.py:423} INFO - Running <TaskInstance: owd_etl_robusto.cargar_datos manual__2026-02-21T00:40:16.809686+00:00 [running]> on host 4db39a7f84f2
+[2026-02-21T00:40:30.634+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Procesos_ETL' AIRFLOW_CTX_DAG_ID='owd_etl_robusto' AIRFLOW_CTX_TASK_ID='cargar_datos' AIRFLOW_CTX_EXECUTION_DATE='2026-02-21T00:40:16.809686+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-21T00:40:16.809686+00:00'
+[2026-02-21T00:40:30.636+0000] {logging_mixin.py:188} INFO - Iniciando Carga Incremental
+[2026-02-21T00:40:30.737+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/owd_etl_robusto.py", line 127, in cargar_datos
+    ids_to_update = df_updates['station_id'.tolist()]
+AttributeError: 'str' object has no attribute 'tolist'
+[2026-02-21T00:40:30.758+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=owd_etl_robusto, task_id=cargar_datos, execution_date=20260221T004016, start_date=20260221T004030, end_date=20260221T004030
+[2026-02-21T00:40:30.780+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 128 for task cargar_datos ('str' object has no attribute 'tolist'; 478)
+[2026-02-21T00:40:30.826+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-21T00:40:30.855+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,30 @@
+[2026-02-21T00:28:43.006+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: owd_etl_robusto.extraer_raw manual__2026-02-21T00:26:37.058183+00:00 [queued]>
+[2026-02-21T00:28:43.017+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: owd_etl_robusto.extraer_raw manual__2026-02-21T00:26:37.058183+00:00 [queued]>
+[2026-02-21T00:28:43.018+0000] {taskinstance.py:2170} INFO - Starting attempt 3 of 3
+[2026-02-21T00:28:43.036+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extraer_raw> on 2026-02-21 00:26:37.058183+00:00
+[2026-02-21T00:28:43.043+0000] {standard_task_runner.py:60} INFO - Started process 785 to run task
+[2026-02-21T00:28:43.052+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'owd_etl_robusto', 'extraer_raw', 'manual__2026-02-21T00:26:37.058183+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/owd_etl_robusto.py', '--cfg-path', '/tmp/tmpdhsw44gk']
+[2026-02-21T00:28:43.056+0000] {standard_task_runner.py:88} INFO - Job 124: Subtask extraer_raw
+[2026-02-21T00:28:43.096+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-21T00:28:43.213+0000] {task_command.py:423} INFO - Running <TaskInstance: owd_etl_robusto.extraer_raw manual__2026-02-21T00:26:37.058183+00:00 [running]> on host 7219c65ad422
+[2026-02-21T00:28:43.660+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Procesos_ETL' AIRFLOW_CTX_DAG_ID='owd_etl_robusto' AIRFLOW_CTX_TASK_ID='extraer_raw' AIRFLOW_CTX_EXECUTION_DATE='2026-02-21T00:26:37.058183+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-21T00:26:37.058183+00:00'
+[2026-02-21T00:28:43.662+0000] {logging_mixin.py:188} INFO - Iniciando la extracción de datos desde la Api...
+[2026-02-21T00:28:43.675+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/owd_etl_robusto.py", line 32, in extraer_raw
+    API_KEY = Variable.get('OPENWEATHER_API_KEY')
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable OPENWEATHER_API_KEY does not exist'
+[2026-02-21T00:28:43.692+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=owd_etl_robusto, task_id=extraer_raw, execution_date=20260221T002637, start_date=20260221T002843, end_date=20260221T002843
+[2026-02-21T00:28:43.706+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 124 for task extraer_raw ('Variable OPENWEATHER_API_KEY does not exist'; 785)
+[2026-02-21T00:28:43.748+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-21T00:28:43.781+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

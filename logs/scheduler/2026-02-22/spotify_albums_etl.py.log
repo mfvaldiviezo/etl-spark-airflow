@@ -1,0 +1,798 @@
+[2026-02-22T00:00:15.832+0000] {processor.py:161} INFO - Started process (PID=42476) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:00:15.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:00:15.837+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:15.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:00:16.206+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:00:16.271+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:16.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:00:16.323+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:16.323+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:00:16.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.529 seconds
+[2026-02-22T00:00:46.463+0000] {processor.py:161} INFO - Started process (PID=42534) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:00:46.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:00:46.467+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:46.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:00:46.809+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:00:46.843+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:46.843+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:00:46.874+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:00:46.874+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:00:46.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.472 seconds
+[2026-02-22T00:01:17.737+0000] {processor.py:161} INFO - Started process (PID=42569) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:01:17.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:01:17.740+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:17.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:01:18.104+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:01:18.146+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:18.145+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:01:18.194+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:18.194+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:01:18.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.491 seconds
+[2026-02-22T00:01:48.306+0000] {processor.py:161} INFO - Started process (PID=42607) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:01:48.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:01:48.309+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:48.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:01:48.635+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:01:48.667+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:48.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:01:48.692+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:01:48.692+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:01:48.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.443 seconds
+[2026-02-22T00:02:18.822+0000] {processor.py:161} INFO - Started process (PID=42642) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:02:18.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:02:18.825+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:18.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:02:19.142+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:02:19.175+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:19.174+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:02:19.200+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:19.200+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:02:19.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.433 seconds
+[2026-02-22T00:02:49.620+0000] {processor.py:161} INFO - Started process (PID=42680) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:02:49.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:02:49.624+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:49.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:02:49.934+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:02:49.970+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:49.969+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:02:49.999+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:02:49.999+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:02:50.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.434 seconds
+[2026-02-22T00:03:20.153+0000] {processor.py:161} INFO - Started process (PID=42712) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:03:20.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:03:20.157+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:20.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:03:20.507+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:03:20.543+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:20.542+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:03:20.577+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:20.576+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:03:20.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.481 seconds
+[2026-02-22T00:03:50.874+0000] {processor.py:161} INFO - Started process (PID=42747) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:03:50.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:03:50.877+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:50.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:03:51.253+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:03:51.303+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:51.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:03:51.337+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:03:51.336+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:03:51.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.505 seconds
+[2026-02-22T00:04:21.614+0000] {processor.py:161} INFO - Started process (PID=42782) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:04:21.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:04:21.618+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:21.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:04:21.981+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:04:22.021+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:22.021+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:04:22.053+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:22.053+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:04:22.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.475 seconds
+[2026-02-22T00:04:52.646+0000] {processor.py:161} INFO - Started process (PID=42817) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:04:52.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:04:52.649+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:52.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:04:52.999+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:04:53.036+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:53.035+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:04:53.068+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:04:53.068+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:04:53.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.473 seconds
+[2026-02-22T00:05:23.628+0000] {processor.py:161} INFO - Started process (PID=42852) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:05:23.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:05:23.631+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:23.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:05:23.987+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:05:24.025+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:24.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:05:24.057+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:24.057+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:05:24.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.466 seconds
+[2026-02-22T00:05:54.212+0000] {processor.py:161} INFO - Started process (PID=42887) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:05:54.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:05:54.215+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:54.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:05:54.575+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:05:54.610+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:54.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:05:54.640+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:05:54.640+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:05:54.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.481 seconds
+[2026-02-22T00:06:24.823+0000] {processor.py:161} INFO - Started process (PID=42922) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:06:24.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:06:24.826+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:24.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:06:25.186+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:06:25.220+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:25.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:06:25.251+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:25.251+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:06:25.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.467 seconds
+[2026-02-22T00:06:55.515+0000] {processor.py:161} INFO - Started process (PID=42958) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:06:55.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:06:55.518+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:55.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:06:55.884+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:06:55.922+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:55.922+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:06:55.954+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:06:55.954+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:06:56.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.498 seconds
+[2026-02-22T00:07:26.574+0000] {processor.py:161} INFO - Started process (PID=42995) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:07:26.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:07:26.577+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:26.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:07:26.917+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:07:26.957+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:26.956+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:07:26.991+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:26.990+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:07:27.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.475 seconds
+[2026-02-22T00:07:57.570+0000] {processor.py:161} INFO - Started process (PID=43022) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:07:57.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:07:57.574+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:57.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:07:57.918+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:07:57.953+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:57.953+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:07:57.989+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:07:57.989+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:07:58.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.464 seconds
+[2026-02-22T00:08:28.290+0000] {processor.py:161} INFO - Started process (PID=43057) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:08:28.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:08:28.294+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:28.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:08:28.691+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:08:28.729+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:28.729+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:08:28.765+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:28.765+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:08:28.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.511 seconds
+[2026-02-22T00:08:59.036+0000] {processor.py:161} INFO - Started process (PID=43092) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:08:59.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:08:59.039+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:59.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:08:59.408+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:08:59.445+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:59.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:08:59.479+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:08:59.479+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:08:59.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.498 seconds
+[2026-02-22T00:09:30.352+0000] {processor.py:161} INFO - Started process (PID=43127) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:09:30.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:09:30.355+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:30.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:09:30.687+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:09:30.726+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:30.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:09:30.756+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:09:30.755+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:09:30.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.456 seconds
+[2026-02-22T00:10:01.623+0000] {processor.py:161} INFO - Started process (PID=43162) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:10:01.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:10:01.632+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:01.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:10:02.155+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:10:02.194+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:02.194+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:10:02.224+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:02.224+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:10:02.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.648 seconds
+[2026-02-22T00:10:32.829+0000] {processor.py:161} INFO - Started process (PID=43197) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:10:32.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:10:32.832+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:32.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:10:33.176+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:10:33.211+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:33.210+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:10:33.242+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:10:33.242+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:10:33.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.473 seconds
+[2026-02-22T00:11:03.943+0000] {processor.py:161} INFO - Started process (PID=43232) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:11:03.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:11:03.946+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:03.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:11:04.299+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:11:04.337+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:04.337+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:11:04.367+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:04.366+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:11:04.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.482 seconds
+[2026-02-22T00:11:35.034+0000] {processor.py:161} INFO - Started process (PID=43267) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:11:35.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:11:35.037+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:35.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:11:35.384+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:11:35.419+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:35.419+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:11:35.450+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:11:35.450+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:11:35.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.473 seconds
+[2026-02-22T00:12:05.935+0000] {processor.py:161} INFO - Started process (PID=43302) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:12:05.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:12:05.938+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:05.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:12:06.292+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:12:06.328+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:06.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:12:06.361+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:06.361+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:12:06.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.463 seconds
+[2026-02-22T00:12:36.606+0000] {processor.py:161} INFO - Started process (PID=43337) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:12:36.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:12:36.609+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:36.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:12:36.957+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:12:36.998+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:36.997+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:12:37.029+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:12:37.028+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:12:37.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.480 seconds
+[2026-02-22T00:13:07.691+0000] {processor.py:161} INFO - Started process (PID=43372) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:13:07.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:13:07.694+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:07.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:13:08.049+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:13:08.085+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:08.085+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:13:08.120+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:08.119+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:13:08.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.619 seconds
+[2026-02-22T00:13:38.707+0000] {processor.py:161} INFO - Started process (PID=43407) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:13:38.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:13:38.710+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:38.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:13:39.054+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:13:39.093+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:39.093+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:13:39.123+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:13:39.123+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:13:39.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.469 seconds
+[2026-02-22T00:14:09.786+0000] {processor.py:161} INFO - Started process (PID=43442) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:14:09.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:14:09.789+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:09.789+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:14:10.126+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:14:10.163+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:10.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:14:10.368+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:10.367+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:14:10.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.643 seconds
+[2026-02-22T00:14:41.312+0000] {processor.py:161} INFO - Started process (PID=43477) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:14:41.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:14:41.315+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:41.314+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:14:41.675+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:14:41.712+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:41.711+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:14:41.742+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:14:41.742+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:14:41.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.471 seconds
+[2026-02-22T00:15:12.505+0000] {processor.py:161} INFO - Started process (PID=43512) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:15:12.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:15:12.509+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:12.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:15:12.912+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:15:12.956+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:12.954+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:15:13.181+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:13.181+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:15:13.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.713 seconds
+[2026-02-22T00:15:44.016+0000] {processor.py:161} INFO - Started process (PID=43547) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:15:44.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:15:44.020+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:44.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:15:44.421+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:15:44.457+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:44.456+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:15:44.487+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:15:44.487+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:15:44.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.690 seconds
+[2026-02-22T00:16:15.148+0000] {processor.py:161} INFO - Started process (PID=43582) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:16:15.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:16:15.152+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:15.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:16:15.507+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:16:15.712+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:15.711+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:16:15.740+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:15.740+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:16:15.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.647 seconds
+[2026-02-22T00:16:46.371+0000] {processor.py:161} INFO - Started process (PID=43617) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:16:46.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:16:46.374+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:46.374+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:16:46.730+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:16:46.766+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:46.765+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:16:46.962+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:16:46.962+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:16:47.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.653 seconds
+[2026-02-22T00:17:17.698+0000] {processor.py:161} INFO - Started process (PID=43652) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:17:17.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:17:17.701+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:17.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:17:18.047+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:17:18.255+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:18.254+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:17:18.280+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:18.280+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:17:18.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.632 seconds
+[2026-02-22T00:17:48.900+0000] {processor.py:161} INFO - Started process (PID=43687) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:17:48.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:17:48.903+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:48.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:17:49.254+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:17:49.290+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:49.290+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:17:49.487+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:17:49.487+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:17:49.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.630 seconds
+[2026-02-22T00:18:20.295+0000] {processor.py:161} INFO - Started process (PID=43722) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:18:20.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:18:20.299+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:20.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:18:20.836+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:18:20.867+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:20.866+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:18:20.895+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:20.895+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:18:20.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.637 seconds
+[2026-02-22T00:18:51.752+0000] {processor.py:161} INFO - Started process (PID=43757) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:18:51.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:18:51.755+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:51.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:18:52.100+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:18:52.310+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:52.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:18:52.338+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:18:52.337+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:18:52.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.642 seconds
+[2026-02-22T00:19:23.140+0000] {processor.py:161} INFO - Started process (PID=43792) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:19:23.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:19:23.143+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:23.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:19:23.677+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:19:23.706+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:23.705+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:19:23.733+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:23.733+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:19:23.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.656 seconds
+[2026-02-22T00:19:54.545+0000] {processor.py:161} INFO - Started process (PID=43827) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:19:54.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:19:54.548+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:54.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:19:55.063+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:19:55.093+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:55.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:19:55.119+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:19:55.119+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:19:55.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.613 seconds
+[2026-02-22T00:20:25.984+0000] {processor.py:161} INFO - Started process (PID=43862) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:20:25.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:20:25.988+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:25.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:20:26.527+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:20:26.556+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:26.556+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:20:26.584+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:26.584+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:20:26.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.656 seconds
+[2026-02-22T00:20:57.347+0000] {processor.py:161} INFO - Started process (PID=43897) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:20:57.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:20:57.351+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:57.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:20:57.932+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:20:57.963+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:57.963+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:20:57.990+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:20:57.989+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:20:58.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.694 seconds
+[2026-02-22T00:21:28.894+0000] {processor.py:161} INFO - Started process (PID=43932) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:21:28.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:21:28.897+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:21:28.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:21:29.436+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:21:29.465+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:21:29.465+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:21:29.492+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:21:29.491+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:21:29.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.648 seconds
+[2026-02-22T00:22:00.342+0000] {processor.py:161} INFO - Started process (PID=43967) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:22:00.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:22:00.347+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:00.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:22:01.235+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:22:01.293+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:01.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:22:01.354+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:01.353+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:22:01.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 1.091 seconds
+[2026-02-22T00:22:31.623+0000] {processor.py:161} INFO - Started process (PID=44002) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:22:31.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:22:31.626+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:31.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:22:32.136+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:22:32.167+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:32.167+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:22:32.193+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:22:32.192+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:22:32.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.624 seconds
+[2026-02-22T00:23:02.720+0000] {processor.py:161} INFO - Started process (PID=44037) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:23:02.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:23:02.723+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:02.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:23:03.274+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:23:03.306+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:03.305+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:23:03.333+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:03.333+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:23:03.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.647 seconds
+[2026-02-22T00:23:33.912+0000] {processor.py:161} INFO - Started process (PID=44072) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:23:33.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:23:33.916+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:33.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:23:34.452+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:23:34.482+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:34.481+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:23:34.508+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:23:34.508+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:23:34.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.652 seconds
+[2026-02-22T00:24:05.306+0000] {processor.py:161} INFO - Started process (PID=44107) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:24:05.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:24:05.309+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:05.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:24:05.847+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:24:05.880+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:05.880+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:24:05.906+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:05.906+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:24:05.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.638 seconds
+[2026-02-22T00:24:36.593+0000] {processor.py:161} INFO - Started process (PID=44142) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:24:36.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:24:36.597+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:36.596+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:24:37.128+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:24:37.159+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:37.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:24:37.187+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:24:37.186+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:24:37.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.631 seconds
+[2026-02-22T00:25:07.933+0000] {processor.py:161} INFO - Started process (PID=44177) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:25:07.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:25:07.936+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:07.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:25:08.460+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:25:08.492+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:08.492+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:25:08.522+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:08.522+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:25:08.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.638 seconds
+[2026-02-22T00:25:39.249+0000] {processor.py:161} INFO - Started process (PID=44212) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:25:39.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:25:39.252+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:39.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:25:39.826+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:25:39.859+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:39.858+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:25:39.886+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:25:39.885+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:25:39.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.672 seconds
+[2026-02-22T00:26:10.179+0000] {processor.py:161} INFO - Started process (PID=44247) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:26:10.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:26:10.182+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:10.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:26:10.721+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:26:10.755+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:10.755+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:26:10.787+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:10.787+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:26:10.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.658 seconds
+[2026-02-22T00:26:41.492+0000] {processor.py:161} INFO - Started process (PID=44282) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:26:41.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:26:41.496+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:41.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:26:42.045+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:26:42.077+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:42.076+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:26:42.105+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:26:42.104+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:26:42.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.650 seconds
+[2026-02-22T00:27:12.834+0000] {processor.py:161} INFO - Started process (PID=44317) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:27:12.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:27:12.837+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:12.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:27:13.368+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:27:13.397+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:13.396+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:27:13.423+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:13.422+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:27:13.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.647 seconds
+[2026-02-22T00:27:44.179+0000] {processor.py:161} INFO - Started process (PID=44352) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:27:44.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:27:44.182+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:44.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:27:44.749+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:27:44.781+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:44.781+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:27:44.809+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:27:44.808+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:27:44.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.675 seconds
+[2026-02-22T00:28:15.417+0000] {processor.py:161} INFO - Started process (PID=44387) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:28:15.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:28:15.420+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:15.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:28:15.930+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:28:15.960+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:15.960+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:28:15.987+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:15.987+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:28:16.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.626 seconds
+[2026-02-22T00:28:46.759+0000] {processor.py:161} INFO - Started process (PID=44422) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:28:46.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:28:46.763+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:46.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:28:47.309+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:28:47.341+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:47.341+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:28:47.367+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:28:47.367+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:28:47.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.664 seconds
+[2026-02-22T00:29:18.145+0000] {processor.py:161} INFO - Started process (PID=44457) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:29:18.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:29:18.149+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:18.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:29:18.695+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:29:18.725+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:18.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:29:18.752+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:18.752+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:29:18.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.648 seconds
+[2026-02-22T00:29:49.440+0000] {processor.py:161} INFO - Started process (PID=44492) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:29:49.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:29:49.444+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:49.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:29:49.980+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:29:50.011+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:50.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:29:50.037+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:29:50.037+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:29:50.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.654 seconds
+[2026-02-22T00:30:20.768+0000] {processor.py:161} INFO - Started process (PID=44527) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:30:20.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:30:20.772+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:20.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:30:21.336+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:30:21.366+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:21.365+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:30:21.391+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:21.391+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:30:21.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.656 seconds
+[2026-02-22T00:30:52.140+0000] {processor.py:161} INFO - Started process (PID=44562) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:30:52.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:30:52.143+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:52.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:30:52.686+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:30:52.715+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:52.715+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:30:52.744+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:30:52.744+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:30:52.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.666 seconds
+[2026-02-22T00:31:23.503+0000] {processor.py:161} INFO - Started process (PID=44597) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:31:23.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:31:23.506+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:23.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:31:24.065+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:31:24.094+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:24.094+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:31:24.122+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:24.122+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:31:24.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.653 seconds
+[2026-02-22T00:31:54.450+0000] {processor.py:161} INFO - Started process (PID=44632) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:31:54.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:31:54.453+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:54.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:31:54.970+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:31:55.001+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:55.001+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:31:55.029+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:31:55.028+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:31:55.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.635 seconds
+[2026-02-22T00:32:25.840+0000] {processor.py:161} INFO - Started process (PID=44667) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:32:25.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:32:25.844+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:25.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:32:26.370+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:32:26.399+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:26.399+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:32:26.424+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:26.424+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:32:26.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.643 seconds
+[2026-02-22T00:32:57.065+0000] {processor.py:161} INFO - Started process (PID=44702) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:32:57.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:32:57.068+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:57.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:32:57.590+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:32:57.625+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:57.625+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:32:57.651+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:32:57.651+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:32:57.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.629 seconds
+[2026-02-22T00:33:28.305+0000] {processor.py:161} INFO - Started process (PID=44737) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:33:28.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:33:28.309+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:33:28.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:33:28.844+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:33:28.874+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:33:28.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:33:28.906+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:33:28.906+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:33:28.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.642 seconds
+[2026-02-22T00:33:59.807+0000] {processor.py:161} INFO - Started process (PID=44772) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:33:59.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:33:59.812+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:33:59.811+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:34:00.606+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:34:00.652+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:00.651+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:34:00.715+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:00.714+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:34:00.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.971 seconds
+[2026-02-22T00:34:31.123+0000] {processor.py:161} INFO - Started process (PID=44807) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:34:31.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:34:31.127+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:31.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:34:31.640+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:34:31.670+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:31.669+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:34:31.696+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:34:31.696+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:34:31.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.627 seconds
+[2026-02-22T00:35:02.158+0000] {processor.py:161} INFO - Started process (PID=44842) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:35:02.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:35:02.161+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:02.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:35:02.673+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:35:02.703+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:02.702+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:35:02.732+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:02.731+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:35:02.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.615 seconds
+[2026-02-22T00:35:33.077+0000] {processor.py:161} INFO - Started process (PID=44877) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:35:33.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:35:33.080+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:33.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:35:33.616+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:35:33.650+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:33.649+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:35:33.677+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:35:33.676+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:35:33.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.648 seconds
+[2026-02-22T00:36:03.924+0000] {processor.py:161} INFO - Started process (PID=44912) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:36:03.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:36:03.928+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:03.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:36:04.510+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:36:04.540+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:04.540+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:36:04.569+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:04.568+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:36:04.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.690 seconds
+[2026-02-22T00:36:34.876+0000] {processor.py:161} INFO - Started process (PID=44947) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:36:34.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:36:34.880+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:34.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:36:35.414+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:36:35.443+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:35.442+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:36:35.469+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:36:35.469+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:36:35.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.642 seconds
+[2026-02-22T00:37:05.881+0000] {processor.py:161} INFO - Started process (PID=44982) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:37:05.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:37:05.884+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:05.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:37:06.472+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:37:06.504+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:06.504+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:37:06.534+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:06.533+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:37:06.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.710 seconds
+[2026-02-22T00:37:37.001+0000] {processor.py:161} INFO - Started process (PID=45017) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:37:37.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:37:37.004+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:37.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:37:37.565+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:37:37.593+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:37.593+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:37:37.624+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:37:37.623+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:37:37.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.671 seconds
+[2026-02-22T00:38:08.463+0000] {processor.py:161} INFO - Started process (PID=45052) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:38:08.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:38:08.467+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:08.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:38:09.055+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:38:09.090+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:09.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:38:09.122+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:09.121+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:38:09.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.695 seconds
+[2026-02-22T00:38:39.874+0000] {processor.py:161} INFO - Started process (PID=45087) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:38:39.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:38:39.878+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:39.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:38:40.418+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:38:40.446+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:40.445+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:38:40.472+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:38:40.472+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:38:40.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.646 seconds
+[2026-02-22T00:39:11.409+0000] {processor.py:161} INFO - Started process (PID=45122) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:39:11.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:39:11.413+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:11.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:39:12.006+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:39:12.038+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:12.037+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:39:12.072+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:12.071+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:39:12.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.701 seconds
+[2026-02-22T00:39:42.887+0000] {processor.py:161} INFO - Started process (PID=45157) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:39:42.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:39:42.892+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:42.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:39:43.444+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:39:43.475+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:43.474+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:39:43.501+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:39:43.501+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:39:43.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.663 seconds
+[2026-02-22T00:40:14.368+0000] {processor.py:161} INFO - Started process (PID=45192) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:40:14.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:40:14.372+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:14.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:40:14.966+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:40:14.997+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:14.996+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:40:15.031+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:15.030+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:40:15.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.699 seconds
+[2026-02-22T00:40:45.818+0000] {processor.py:161} INFO - Started process (PID=45227) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:40:45.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:40:45.823+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:45.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:40:46.340+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:40:46.371+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:46.370+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:40:46.396+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:40:46.396+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:40:46.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.615 seconds
+[2026-02-22T00:41:17.160+0000] {processor.py:161} INFO - Started process (PID=45262) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:41:17.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:41:17.163+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:17.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:41:17.745+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:41:17.779+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:17.778+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:41:17.807+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:17.806+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:41:17.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.709 seconds
+[2026-02-22T00:41:48.774+0000] {processor.py:161} INFO - Started process (PID=45297) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:41:48.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:41:48.778+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:48.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:41:49.296+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:41:49.328+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:49.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:41:49.356+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:41:49.356+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:41:49.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.644 seconds
+[2026-02-22T00:42:20.267+0000] {processor.py:161} INFO - Started process (PID=45332) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:42:20.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:42:20.271+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:20.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:42:20.844+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:42:20.878+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:20.878+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:42:20.910+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:20.909+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:42:20.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.680 seconds
+[2026-02-22T00:42:51.259+0000] {processor.py:161} INFO - Started process (PID=45367) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:42:51.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:42:51.262+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:51.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:42:51.805+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:42:51.832+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:51.832+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:42:51.858+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:42:51.858+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:42:51.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.636 seconds
+[2026-02-22T00:43:22.698+0000] {processor.py:161} INFO - Started process (PID=45402) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:43:22.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:43:22.702+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:22.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:43:23.280+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:43:23.313+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:23.312+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:43:23.342+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:23.342+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:43:23.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.701 seconds
+[2026-02-22T00:43:54.121+0000] {processor.py:161} INFO - Started process (PID=45437) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:43:54.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:43:54.126+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:54.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:43:54.711+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:43:54.738+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:54.737+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:43:54.763+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:43:54.763+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:43:54.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.690 seconds
+[2026-02-22T00:44:25.673+0000] {processor.py:161} INFO - Started process (PID=45472) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:44:25.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:44:25.677+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:25.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:44:26.331+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:44:26.364+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:26.363+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:44:26.397+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:26.397+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:44:26.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.758 seconds
+[2026-02-22T00:44:57.082+0000] {processor.py:161} INFO - Started process (PID=45507) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:44:57.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:44:57.086+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:57.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:44:57.612+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:44:57.640+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:57.639+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:44:57.675+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:44:57.674+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:44:57.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.646 seconds
+[2026-02-22T00:45:28.684+0000] {processor.py:161} INFO - Started process (PID=45542) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:45:28.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:45:28.688+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:45:28.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:45:29.303+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:45:29.336+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:45:29.335+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:45:29.365+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:45:29.365+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:45:29.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.732 seconds
+[2026-02-22T00:46:00.254+0000] {processor.py:161} INFO - Started process (PID=45577) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:46:00.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:46:00.261+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:00.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:46:01.043+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:46:01.098+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:01.096+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:46:01.153+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:01.152+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:46:01.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.949 seconds
+[2026-02-22T00:46:32.152+0000] {processor.py:161} INFO - Started process (PID=45612) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:46:32.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:46:32.155+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:32.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:46:32.737+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:46:32.768+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:32.768+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:46:32.799+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:46:32.798+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:46:32.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.711 seconds
+[2026-02-22T00:47:03.662+0000] {processor.py:161} INFO - Started process (PID=45647) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:47:03.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:47:03.666+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:03.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:47:04.226+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:47:04.256+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:04.255+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:47:04.285+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:04.284+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:47:04.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.659 seconds
+[2026-02-22T00:47:35.113+0000] {processor.py:161} INFO - Started process (PID=45682) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:47:35.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:47:35.116+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:35.116+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:47:35.702+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:47:35.737+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:35.736+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:47:35.771+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:47:35.771+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:47:35.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.709 seconds
+[2026-02-22T00:48:06.750+0000] {processor.py:161} INFO - Started process (PID=45717) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:48:06.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:48:06.753+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:06.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:48:07.291+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:48:07.320+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:07.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:48:07.345+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:07.345+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:48:07.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.628 seconds
+[2026-02-22T00:48:38.116+0000] {processor.py:161} INFO - Started process (PID=45752) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:48:38.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:48:38.121+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:38.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:48:38.716+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:48:38.748+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:38.747+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:48:38.778+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:48:38.778+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:48:38.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.702 seconds
+[2026-02-22T00:49:09.604+0000] {processor.py:161} INFO - Started process (PID=45787) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:49:09.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:49:09.607+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:09.607+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:49:10.112+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:49:10.141+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:10.140+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:49:10.166+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:10.165+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:49:10.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.609 seconds
+[2026-02-22T00:49:41.146+0000] {processor.py:161} INFO - Started process (PID=45822) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:49:41.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:49:41.151+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:41.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:49:41.743+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:49:41.776+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:41.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:49:41.806+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:49:41.806+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:49:41.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.699 seconds
+[2026-02-22T00:50:12.351+0000] {processor.py:161} INFO - Started process (PID=45857) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:50:12.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:50:12.354+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:12.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:50:12.867+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:50:12.896+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:12.895+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:50:12.923+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:12.923+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:50:12.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.612 seconds
+[2026-02-22T00:50:43.183+0000] {processor.py:161} INFO - Started process (PID=45893) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:50:43.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:50:43.186+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:43.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:50:43.753+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:50:43.785+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:43.785+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:50:43.814+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:50:43.814+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:50:43.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.690 seconds
+[2026-02-22T00:51:14.153+0000] {processor.py:161} INFO - Started process (PID=45927) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:51:14.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:51:14.157+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:14.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:51:14.718+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:51:14.745+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:14.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:51:14.772+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:14.771+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:51:14.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.678 seconds
+[2026-02-22T00:51:45.107+0000] {processor.py:161} INFO - Started process (PID=45962) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:51:45.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:51:45.110+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:45.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:51:45.647+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:51:45.678+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:45.677+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:51:45.703+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:51:45.703+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:51:45.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.629 seconds
+[2026-02-22T00:52:15.902+0000] {processor.py:161} INFO - Started process (PID=45997) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:52:15.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:52:15.906+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:15.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:52:16.409+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:52:16.441+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:16.440+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:52:16.467+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:16.466+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:52:16.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.622 seconds
+[2026-02-22T00:52:47.352+0000] {processor.py:161} INFO - Started process (PID=46032) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:52:47.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:52:47.355+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:47.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:52:47.880+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:52:47.915+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:47.915+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:52:47.944+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:52:47.944+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:52:47.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.624 seconds
+[2026-02-22T00:53:18.642+0000] {processor.py:161} INFO - Started process (PID=46067) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:53:18.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:53:18.645+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:18.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:53:19.164+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:53:19.194+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:19.194+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:53:19.221+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:19.221+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:53:19.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.642 seconds
+[2026-02-22T00:53:49.658+0000] {processor.py:161} INFO - Started process (PID=46102) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:53:49.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:53:49.661+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:49.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:53:50.204+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:53:50.233+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:50.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:53:50.260+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:53:50.260+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:53:50.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.637 seconds
+[2026-02-22T00:54:21.053+0000] {processor.py:161} INFO - Started process (PID=46137) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:54:21.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:54:21.057+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:21.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:54:21.417+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:54:21.455+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:21.454+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:54:21.485+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:21.484+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:54:21.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.473 seconds
+[2026-02-22T00:54:51.792+0000] {processor.py:161} INFO - Started process (PID=46172) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:54:51.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:54:51.796+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:51.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:54:52.128+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:54:52.170+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:52.169+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:54:52.199+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:54:52.198+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:54:52.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.463 seconds
+[2026-02-22T00:55:22.516+0000] {processor.py:161} INFO - Started process (PID=46207) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:55:22.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:55:22.519+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:22.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:55:22.877+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:55:22.913+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:22.913+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:55:22.950+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:22.949+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:55:22.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.469 seconds
+[2026-02-22T00:55:53.285+0000] {processor.py:161} INFO - Started process (PID=46242) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:55:53.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:55:53.288+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:53.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:55:53.636+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:55:53.674+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:53.674+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:55:53.703+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:55:53.703+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:55:53.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.630 seconds
+[2026-02-22T00:56:24.162+0000] {processor.py:161} INFO - Started process (PID=46277) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:56:24.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:56:24.166+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:24.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:56:24.517+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:56:24.557+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:24.557+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:56:24.595+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:24.595+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:56:24.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.476 seconds
+[2026-02-22T00:56:55.705+0000] {processor.py:161} INFO - Started process (PID=46312) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:56:55.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:56:55.708+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:55.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:56:56.063+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:56:56.098+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:56.098+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:56:56.128+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:56:56.127+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:56:56.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.478 seconds
+[2026-02-22T00:57:26.530+0000] {processor.py:161} INFO - Started process (PID=46347) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:57:26.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:57:26.533+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:26.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:57:26.914+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:57:26.962+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:26.962+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:57:27.000+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:27.000+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:57:27.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.509 seconds
+[2026-02-22T00:57:57.799+0000] {processor.py:161} INFO - Started process (PID=46382) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:57:57.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:57:57.803+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:57.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:57:58.179+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:57:58.221+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:58.220+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:57:58.261+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:57:58.260+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:57:58.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.499 seconds
+[2026-02-22T00:58:29.018+0000] {processor.py:161} INFO - Started process (PID=46417) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:58:29.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:58:29.021+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:58:29.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:58:29.384+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:58:29.419+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:58:29.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:58:29.450+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:58:29.450+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:58:29.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.471 seconds
+[2026-02-22T00:58:59.760+0000] {processor.py:161} INFO - Started process (PID=46452) to work on /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:58:59.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_albums_etl.py for tasks to queue
+[2026-02-22T00:58:59.763+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:58:59.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:59:00.428+0000] {processor.py:840} INFO - DAG(s) '08_spotify_albums_etl' retrieved from /opt/airflow/dags/spotify_albums_etl.py
+[2026-02-22T00:59:00.505+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:59:00.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-22T00:59:00.548+0000] {logging_mixin.py:188} INFO - [2026-02-22T00:59:00.548+0000] {dag.py:3823} INFO - Setting next_dagrun for 08_spotify_albums_etl to 2026-02-22 00:00:00+00:00, run_after=2026-03-01 00:00:00+00:00
+[2026-02-22T00:59:00.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_albums_etl.py took 0.843 seconds

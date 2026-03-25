@@ -1,0 +1,19 @@
+[2026-02-14T01:36:44.904+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: owd_etl.transformar_datos manual__2026-02-14T01:36:36.684646+00:00 [queued]>
+[2026-02-14T01:36:44.913+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: owd_etl.transformar_datos manual__2026-02-14T01:36:36.684646+00:00 [queued]>
+[2026-02-14T01:36:44.914+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-02-14T01:36:44.935+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): transformar_datos> on 2026-02-14 01:36:36.684646+00:00
+[2026-02-14T01:36:44.945+0000] {standard_task_runner.py:60} INFO - Started process 382 to run task
+[2026-02-14T01:36:44.952+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'owd_etl', 'transformar_datos', 'manual__2026-02-14T01:36:36.684646+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/owd_etl.py', '--cfg-path', '/tmp/tmpnoi5tjqo']
+[2026-02-14T01:36:44.955+0000] {standard_task_runner.py:88} INFO - Job 4: Subtask transformar_datos
+[2026-02-14T01:36:44.978+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-14T01:36:45.047+0000] {task_command.py:423} INFO - Running <TaskInstance: owd_etl.transformar_datos manual__2026-02-14T01:36:36.684646+00:00 [running]> on host d25b48271c24
+[2026-02-14T01:36:45.439+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Clases_etl' AIRFLOW_CTX_DAG_ID='owd_etl' AIRFLOW_CTX_TASK_ID='transformar_datos' AIRFLOW_CTX_EXECUTION_DATE='2026-02-14T01:36:36.684646+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-14T01:36:36.684646+00:00'
+[2026-02-14T01:36:45.440+0000] {logging_mixin.py:188} INFO - ⚙️ Leyendo archivo crudo desde: /opt/***/dags/data_lake/simple_weather/raw/clima_crudo.json
+[2026-02-14T01:36:45.455+0000] {logging_mixin.py:188} INFO - 
+✅ DATOS TRANSFORMADOS (TABULAR):
+[2026-02-14T01:36:45.468+0000] {logging_mixin.py:188} INFO -   ciudad pais  temperatura_actual  humedad clima_descripcion
+0   Loja   EC               13.23       96              Rain
+[2026-02-14T01:36:45.582+0000] {python.py:201} INFO - Done. Returned value was: /opt/***/dags/data_lake/simple_weather/clean/clima_limpio.parquet
+[2026-02-14T01:36:45.615+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=owd_etl, task_id=transformar_datos, execution_date=20260214T013636, start_date=20260214T013644, end_date=20260214T013645
+[2026-02-14T01:36:45.687+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-14T01:36:45.719+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

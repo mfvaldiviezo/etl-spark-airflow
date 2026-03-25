@@ -1,0 +1,102 @@
+[2026-03-25T16:53:44.674+0000] {processor.py:161} INFO - Started process (PID=1222) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:53:44.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T16:53:44.677+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:53:44.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:53:44.714+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:53:44.867+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:53:44.866+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:laboratorio_6_spark_etl
+[2026-03-25T16:53:44.883+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:53:44.882+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:laboratorio_6_spark_etl
+[2026-03-25T16:53:44.894+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:53:44.893+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:laboratorio_6_spark_etl
+[2026-03-25T16:53:44.895+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:53:44.895+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T16:53:44.908+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:53:44.907+0000] {dag.py:3058} INFO - Creating ORM DAG for laboratorio_6_spark_etl
+[2026-03-25T16:53:44.909+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:53:44.909+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T16:53:44.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.266 seconds
+[2026-03-25T16:54:15.611+0000] {processor.py:161} INFO - Started process (PID=1262) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:54:15.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T16:54:15.616+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:54:15.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:54:15.651+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:54:15.691+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:54:15.691+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T16:54:15.711+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:54:15.711+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T16:54:15.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.142 seconds
+[2026-03-25T16:54:45.878+0000] {processor.py:161} INFO - Started process (PID=1560) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:54:45.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T16:54:45.881+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:54:45.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:54:45.912+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:54:45.962+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:54:45.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T16:54:45.982+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:54:45.982+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T16:54:46.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.181 seconds
+[2026-03-25T16:55:16.269+0000] {processor.py:161} INFO - Started process (PID=1740) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:55:16.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T16:55:16.272+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:55:16.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:55:16.311+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T16:55:16.348+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:55:16.348+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T16:55:16.367+0000] {logging_mixin.py:188} INFO - [2026-03-25T16:55:16.367+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T16:55:16.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.130 seconds
+[2026-03-25T18:48:12.112+0000] {processor.py:161} INFO - Started process (PID=1782) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:48:12.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:48:12.128+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:48:12.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:48:12.205+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:48:12.361+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:48:12.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:48:12.417+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:48:12.416+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:48:12.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.409 seconds
+[2026-03-25T18:48:42.990+0000] {processor.py:161} INFO - Started process (PID=1822) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:48:43.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:48:43.002+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:48:43.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:48:43.086+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:48:43.212+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:48:43.202+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:48:43.282+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:48:43.281+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:48:43.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.405 seconds
+[2026-03-25T18:49:13.917+0000] {processor.py:161} INFO - Started process (PID=1862) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:49:13.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:49:13.921+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:49:13.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:49:13.976+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:49:14.017+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:49:14.016+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:49:14.034+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:49:14.033+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:49:14.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.215 seconds
+[2026-03-25T18:49:44.541+0000] {processor.py:161} INFO - Started process (PID=1902) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:49:44.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:49:44.544+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:49:44.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:49:44.616+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:49:44.701+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:49:44.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:49:44.748+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:49:44.748+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:49:44.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.283 seconds
+[2026-03-25T18:50:15.107+0000] {processor.py:161} INFO - Started process (PID=1942) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:50:15.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:50:15.110+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:50:15.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:50:15.138+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:50:15.175+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:50:15.175+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:50:15.191+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:50:15.190+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:50:15.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.139 seconds
+[2026-03-25T18:50:46.140+0000] {processor.py:161} INFO - Started process (PID=1982) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:50:46.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:50:46.143+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:50:46.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:50:46.176+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:50:46.211+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:50:46.211+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:50:46.224+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:50:46.224+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:50:46.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.130 seconds
+[2026-03-25T18:51:16.742+0000] {processor.py:161} INFO - Started process (PID=2022) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:51:16.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:51:16.748+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:51:16.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:51:16.790+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:51:16.843+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:51:16.843+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:51:16.871+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:51:16.871+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:51:16.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.190 seconds
+[2026-03-25T18:51:47.599+0000] {processor.py:161} INFO - Started process (PID=2062) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:51:47.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:51:47.603+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:51:47.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:51:47.633+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:51:47.679+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:51:47.677+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:51:47.701+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:51:47.701+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:51:47.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.180 seconds
+[2026-03-25T18:52:18.555+0000] {processor.py:161} INFO - Started process (PID=2102) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:52:18.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:52:18.563+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:52:18.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:52:18.652+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:52:18.725+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:52:18.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:52:18.773+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:52:18.773+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:52:18.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.324 seconds
+[2026-03-25T18:52:49.397+0000] {processor.py:161} INFO - Started process (PID=2142) to work on /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:52:49.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_spark_taller.py for tasks to queue
+[2026-03-25T18:52:49.401+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:52:49.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:52:49.428+0000] {processor.py:840} INFO - DAG(s) 'laboratorio_6_spark_etl' retrieved from /opt/airflow/dags/dag_spark_taller.py
+[2026-03-25T18:52:49.462+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:52:49.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-25T18:52:49.476+0000] {logging_mixin.py:188} INFO - [2026-03-25T18:52:49.475+0000] {dag.py:3823} INFO - Setting next_dagrun for laboratorio_6_spark_etl to None, run_after=None
+[2026-03-25T18:52:49.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_spark_taller.py took 0.130 seconds

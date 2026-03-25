@@ -1,0 +1,15 @@
+[2026-02-21T20:00:14.732+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10_crypto_live_etl.transformar_crypto_silver scheduled__2026-02-21T19:00:00+00:00 [queued]>
+[2026-02-21T20:00:14.742+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10_crypto_live_etl.transformar_crypto_silver scheduled__2026-02-21T19:00:00+00:00 [queued]>
+[2026-02-21T20:00:14.743+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-02-21T20:00:14.759+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): transformar_crypto_silver> on 2026-02-21 19:00:00+00:00
+[2026-02-21T20:00:14.765+0000] {standard_task_runner.py:60} INFO - Started process 26170 to run task
+[2026-02-21T20:00:14.770+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', '10_crypto_live_etl', 'transformar_crypto_silver', 'scheduled__2026-02-21T19:00:00+00:00', '--job-id', '325', '--raw', '--subdir', 'DAGS_FOLDER/crypto_live_etl.py', '--cfg-path', '/tmp/tmp2hptq_x_']
+[2026-02-21T20:00:14.773+0000] {standard_task_runner.py:88} INFO - Job 325: Subtask transformar_crypto_silver
+[2026-02-21T20:00:14.794+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2026-02-21T20:00:14.851+0000] {task_command.py:423} INFO - Running <TaskInstance: 10_crypto_live_etl.transformar_crypto_silver scheduled__2026-02-21T19:00:00+00:00 [running]> on host 4db39a7f84f2
+[2026-02-21T20:00:15.147+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='maestria_bigdata' AIRFLOW_CTX_DAG_ID='10_crypto_live_etl' AIRFLOW_CTX_TASK_ID='transformar_crypto_silver' AIRFLOW_CTX_EXECUTION_DATE='2026-02-21T19:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-02-21T19:00:00+00:00'
+[2026-02-21T20:00:15.148+0000] {logging_mixin.py:188} INFO - ⚙️ [SILVER] Estandarizando telemetría financiera...
+[2026-02-21T20:00:15.269+0000] {python.py:201} INFO - Done. Returned value was: /opt/***/dags/data_lake/crypto_project/silver/clean_crypto.parquet
+[2026-02-21T20:00:15.321+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=10_crypto_live_etl, task_id=transformar_crypto_silver, execution_date=20260221T190000, start_date=20260221T200014, end_date=20260221T200015
+[2026-02-21T20:00:15.384+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-21T20:00:15.423+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
